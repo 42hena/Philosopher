@@ -44,7 +44,7 @@ void do_pick(t_philos *philoinfo);
 void do_eat(t_philos *philoinfo);
 void do_sleep(t_philos *philoinfo);
 void do_think(t_philos *philoinfo);
-
+void sleep_function(int waiting_time);
 void *monitor(void *data);
 enum philosopher_state
 {
