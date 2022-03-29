@@ -1,4 +1,5 @@
 #include "philos.h"
+
 /*
 **	1 sec = 1,000 ms, 1 usec = 1^-6 sec 
 */
@@ -7,11 +8,9 @@ long long	get_time_ms(struct timeval not_ms)
 {
 	long long	ms;
 
-	ms = not_ms.tv_sec * 1000;
-	ms = ms + not_ms.tv_usec / 1000;
+	ms = not_ms.tv_sec * 1000 + not_ms.tv_usec / 1000;
 	return (ms);
 }
-
 
 void* t_function(void *arguments)
 {
@@ -19,8 +18,9 @@ void* t_function(void *arguments)
 	
 	philoinfo = (t_philos *)arguments;
 	if (philoinfo->index % 2 == 0)
-		usleep(philoinfo->gameinfo->eating_time * 1000);
-	while (philoinfo->state != DEAD)
+		// sleep_function(philoinfo->gameinfo->eating_time);
+		usleep(50);
+	while (!philoinfo->gameinfo->end)
 	{
 		do_pick(philoinfo);
 		do_eat(philoinfo);
@@ -59,7 +59,6 @@ void	init_philos(t_game *game, int argc, char **argv)
 	int i;
 
 	i = -1;
-	
 	while (++i < game->number_of_philos)
 	{
 		game->philos[i].recent_eat_time = game->create_time;
@@ -90,8 +89,8 @@ void	game_start(t_game *game)
 	while (++i < game->number_of_philos)
 	{
 		pthread_create(&(game->philos[i].philo), NULL, t_function, (void *)&game->philos[i]);
-		// pthread_create(&thread, NULL, monitor, (void *)&game->philos[i]);
-		// pthread_detach(thread);
+		pthread_create(&thread, NULL, monitor, (void *)&game->philos[i]);
+		pthread_detach(thread);
 	}
 }
 
@@ -102,20 +101,23 @@ void	game_end(t_game *game)
 
 	i = -1;
 	while (++i < game->number_of_philos)
+	{
 		pthread_join(game->philos[i].philo, (void *)&state);
+	}
 }
 
 /*
 **	philonum, die, eat, sleep, [count]
 입력 처리 부분 붙여야 함
 */
+
 int main(int argc, char **argv)
 {
 	t_game game;
 	if (argc != 5 && argc != 6)
 	{
 		printf("exit\n");
-		exit(0);
+		return (0);
 	}
 	init_argv_data(&game, argc, argv);
 	game_start(&game);
