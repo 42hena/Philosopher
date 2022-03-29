@@ -1,3 +1,4 @@
+#include "philos.h"
 int	ft_atoi(const char *nptr)
 {
 	int			i;
@@ -24,4 +25,22 @@ int	ft_atoi(const char *nptr)
 		i++;
 	}
 	return (n * sign);
+}
+
+void sleep_function(int waiting_time)
+{
+	struct timeval		now;
+	long long			end_time;
+	long long			now_time;
+
+	gettimeofday(&now, NULL);
+	now_time = get_time_ms(now);
+	end_time = now_time + (long long)waiting_time;
+    while(end_time > now_time)
+	{
+		// printf("%ld %ld\n", end_time, now_time);
+		gettimeofday(&now, NULL);
+		now_time = get_time_ms(now);
+		usleep(100);
+	}
 }
