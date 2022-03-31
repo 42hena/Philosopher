@@ -1,26 +1,16 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: hena <hena@student.42seoul.kr>             +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/03/31 16:57:39 by hena              #+#    #+#             */
+/*   Updated: 2022/03/31 16:57:41 by hena             ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "philos.h"
-
-/*
-**	1 sec = 1,000 ms, 1 usec = 1^-6 sec 
-*/
-
-void* t_function(void *arguments)
-{
-	t_philos *philoinfo;
-	
-	philoinfo = (t_philos *)arguments;
-	if (philoinfo->index % 2 == 0)
-		sleep_function(philoinfo->gameinfo->eating_time);
-		
-	while (!philoinfo->gameinfo->end)
-	{
-		do_pick(philoinfo);
-		do_eat(philoinfo);
-		do_sleep(philoinfo);
-		do_think(philoinfo);
-	}
-	return (NULL);
-}
 
 void	init_argv_data(t_game *game, int argc, char **argv)
 {	
@@ -37,7 +27,8 @@ void	game_start(t_game *game)
 	i = -1;
 	while (++i < game->number_of_philos)
 	{
-		pthread_create(&(game->philos[i].philo), NULL, t_function, (void *)&game->philos[i]);
+		pthread_create(&(game->philos[i].philo), \
+		NULL, philo_routine, (void *)&game->philos[i]);
 		pthread_create(&thread, NULL, dead_monitor, (void *)&game->philos[i]);
 		pthread_detach(thread);
 	}
@@ -50,7 +41,7 @@ void	game_start(t_game *game)
 
 void	game_end(t_game *game)
 {
-	int i;
+	int	i;
 
 	i = -1;
 	while (++i < game->number_of_philos)
@@ -66,9 +57,9 @@ void	game_end(t_game *game)
 **	Input: philospher_num, die_time, eat_time, sleep_time, [must_eat_count]
 */
 
-int main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
-	t_game game;
+	t_game	game;
 
 	if (argc != 5 && argc != 6)
 	{
