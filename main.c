@@ -1,10 +1,12 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "utility.h"
 
 
 int	main(int argc, char **argv)
 {
 	int i;
+	int value;
 
 	// check arguments count if argc is not 5 or 6
 	if (argc != 5 && argc != 6)
@@ -22,5 +24,15 @@ int	main(int argc, char **argv)
 		}
 	}
 
+	// check arguments is positive
+	for (i = 1 ; i < argc ; ++i)
+	{
+		value = atoi(argv[i]);
+		if (value <= 0)
+		{
+			printf("The value %d is not positive.\n", value);
+			return (1);
+		}
+	}
 	return (0);
 }
