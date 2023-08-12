@@ -7,9 +7,11 @@ int is_number(const char ch)
 
 int is_numeric_string(const char *str)
 {
-	while (*str++)
+	while (*str)
+	{
 		if (is_number(*str) == 0)
 			return (0);
-
+		str++;
+	}
 	return (1);
 }
