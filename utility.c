@@ -15,3 +15,14 @@ int is_numeric_string(const char *str)
 	}
 	return (1);
 }
+
+int ft_strlen(const char *str)
+{
+	int count;
+
+	count = 0;
+	while (str[count])
+		count++;
+
+	return count;
+}
