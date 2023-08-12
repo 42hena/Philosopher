@@ -15,6 +15,7 @@ int	main(int argc, char **argv)
 		return (1);
 	}
 
+	// check arguments is numeric string
 	for (i = 1 ; i < argc ; ++i)
 	{
 		if (is_numeric_string(argv[i]) == 0)
