@@ -1,12 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <pthread.h>
+#include "philos.h"
 #include "utility.h"
+#include "init_philo.h"
 
 
 int	main(int argc, char **argv)
 {
 	int i;
 	int value;
+	t_philo_info* info;
 
 	// check arguments count if argc is not 5 or 6
 	if (argc != 5 && argc != 6)
@@ -35,5 +39,17 @@ int	main(int argc, char **argv)
 			return (1);
 		}
 	}
+
+	// create info
+	info = (t_philo_info *)malloc(sizeof(t_philo_info));
+	// init info
+	init_limit_info(info, argc, argv);
+	// check info
+	print_limit_info(info);
+
+	init_philos(info, argc, argv);
+	print_philo_data(info);
+
+	free(info);
 	return (0);
 }
