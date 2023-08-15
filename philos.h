@@ -1,22 +1,5 @@
 #ifndef PHILOS_H
-# define PHILOS_H
-
-typedef struct s_philo	t_philo;
-typedef struct s_philo_info
-{
-	int				number_of_philos;
-	int				eating_time;
-	int				sleeping_time;
-	int				died_time;
-	int				must_eat_count;
-	int				end;
-	pthread_mutex_t	end_mutex;
-	// struct timeval	create_time;
-	t_philo			*philo_list;
-}					t_philo_info;
-
-// print
-
+#define PHILOS_H
 
 typedef struct s_philo
 {
@@ -27,26 +10,39 @@ typedef struct s_philo
 	pthread_mutex_t	*rightfork;
 	pthread_t		philo;
 	pthread_mutex_t	mutex;
-	t_philo_info	*gameinfo;
 	struct timeval	recent_eat_time;
 }					t_philo;
 
-/*
-**          init.c
-*/
+typedef struct s_philo_info
+{
+	// values from convert 
+	int				number_of_philos;
+	int				eating_time;
+	int				sleeping_time;
+	int				died_time;
+	int				must_eat_count;
 
-// int			check_argumets(int argc, char **argv);
-// void		init_mutex(t_game *game);
-// void		init_game(t_game *game, int argc, char **argv);
-// void		init_philos(t_game *game, int argc, char **argv);
+	long long		start_time;
+	int				end_flag;
+	pthread_mutex_t	print_mutex;
+	t_philo			*philo_list;
+}					t_philo_info;
 
 enum	e_philosopher_state
 {	
 	THINKING,
-	PICKING,
+	PICKING_LEFT_FORK,
+	PICKING_RIGHT_FORK,
 	EATING,
 	SLEEPING,
 	DEAD
+};
+
+enum	e_error_state
+{
+	ERR_PARAM_COUNT = 1,
+	ERR_PARAM_STRING,
+	ERR_PARAM_NATATIVE
 };
 
 #endif
