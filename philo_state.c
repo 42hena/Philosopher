@@ -1,48 +1,72 @@
-#include "philos.h"
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <pthread.h>
+#include <sys/time.h>
 
-void	do_pick(t_philos *philoinfo)
+#include "philos.h"
+#include "utility.h"
+
+extern t_philo_info g_philo_info;
+
+
+
+void	print_message(t_philo *philoinfo, int type)
 {
-	pthread_mutex_lock(philoinfo->leftfork);
-	print_message(philoinfo, PICKING);
-	pthread_mutex_lock(philoinfo->rightfork);
-	print_message(philoinfo, PICKING);
+	struct timeval		now;
+	const char			*state_str[] = \
+		{"is thinking", "has taken a left fork", \
+		"has taken a right fork",
+		"is eating", "is sleeping", "is dead"};
+	const long long start_time = g_philo_info.start_time;
+
+
+	pthread_mutex_lock(&g_philo_info.print_mutex);
+	gettimeofday(&now, NULL);
+	if (!g_philo_info.end_flag)
+		printf("%-10lldms\tphilos [%3d] %s\n", \
+			get_time_ms(now) - start_time, \
+			philoinfo->id, state_str[type]);
+	pthread_mutex_unlock(&g_philo_info.print_mutex);
 }
 
-static void	eating(t_philos *philoinfo)
+void	do_pick(t_philo *philoinfo)
+{
+	pthread_mutex_lock(philoinfo->leftfork);
+	print_message(philoinfo, PICKING_LEFT_FORK);
+	pthread_mutex_lock(philoinfo->rightfork);
+	print_message(philoinfo, PICKING_RIGHT_FORK);
+}
+
+void	eating(t_philo *philoinfo)
 {
 	long long	ms;
-	const char	*state_str[5] = \
-		{"is thinking", "has taken a fork", \
-		"is eating", "is sleeping", "is dead"};
-
+	
 	gettimeofday(&philoinfo->recent_eat_time, NULL);
-	ms = get_time_ms(philoinfo->recent_eat_time) - \
-	get_time_ms(philoinfo->gameinfo->create_time);
-	if (!philoinfo->gameinfo->end)
+	// ms = get_time_ms(philoinfo->recent_eat_time);
+	//  - get_time_ms(g_philo_info.create_time);
+	if (!g_philo_info.end_flag)
 	{
-		printf("%-10lldms\tphilos [%3d] %s\n", \
-				ms, philoinfo->index, state_str[EATING]);
+		print_message(philoinfo, EATING);
 		philoinfo->eat_count++;
 	}
 }
 
-void	do_eat(t_philos *philoinfo)
+void	do_eat(t_philo *philoinfo)
 {
-	pthread_mutex_lock(&philoinfo->gameinfo->end_mutex);
 	eating(philoinfo);
-	pthread_mutex_unlock(&philoinfo->gameinfo->end_mutex);
-	sleep_function(philoinfo->gameinfo->eating_time);
+	run_sleep(g_philo_info.eating_time);
 	pthread_mutex_unlock(philoinfo->leftfork);
 	pthread_mutex_unlock(philoinfo->rightfork);
 }
 
-void	do_sleep(t_philos *philoinfo)
+void	do_sleep(t_philo *philoinfo)
 {
 	print_message(philoinfo, SLEEPING);
-	sleep_function(philoinfo->gameinfo->sleeping_time);
+	run_sleep(g_philo_info.sleeping_time);
 }
 
-void	do_think(t_philos *philoinfo)
+void	do_think(t_philo *philoinfo)
 {
 	print_message(philoinfo, THINKING);
 }
