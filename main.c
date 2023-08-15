@@ -1,55 +1,24 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <pthread.h>
-#include "philos.h"
-#include "utility.h"
+#include "check_utility.h"
 #include "init_philo.h"
-
+#include "philo_routine.h"
 
 int	main(int argc, char **argv)
 {
-	int i;
-	int value;
-	t_philo_info* info;
+	int error_code;
 
-	// check arguments count if argc is not 5 or 6
-	if (argc != 5 && argc != 6)
-	{
-		printf("The argc is not valid.\n");
+	// check parameter is valid
+	error_code = is_invalid_prameter(argc, argv);
+	if (error_code != 0)
 		return (1);
-	}
+	
+	// Init basic info
+	init_limit_info(argc, argv);
 
-	// check arguments is numeric string
-	for (i = 1 ; i < argc ; ++i)
-	{
-		if (is_numeric_string(argv[i]) == 0)
-		{
-			printf("The value at index %d is not a number. That string value is '%s'.\n", i, argv[i]);
-			return (1);
-		}
-	}
+	// Init philos
+	init_philos(argc, argv);
 
-	// check arguments is positive
-	for (i = 1 ; i < argc ; ++i)
-	{
-		value = atoi(argv[i]);
-		if (value <= 0)
-		{
-			printf("The value %d is not positive.\n", value);
-			return (1);
-		}
-	}
+	// start main routine
+	begin_philosopher_routines();
 
-	// create info
-	info = (t_philo_info *)malloc(sizeof(t_philo_info));
-	// init info
-	init_limit_info(info, argc, argv);
-	// check info
-	print_limit_info(info);
-
-	init_philos(info, argc, argv);
-	print_philo_data(info);
-
-	free(info);
 	return (0);
 }
