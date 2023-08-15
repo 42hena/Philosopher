@@ -1,3 +1,5 @@
+#include <sys/time.h>
+
 /*
 	input :	const char ch
 	output:	true or false
@@ -28,4 +30,20 @@ int is_numeric_string(const char *str)
 		str++;
 	}
 	return (1);
+}
+
+long long	get_now_ms(void)
+{
+	struct timeval	tv;
+
+	gettimeofday(&tv, NULL);
+	return (tv.tv_sec * 1000 + tv.tv_usec / 1000);
+}
+
+long long	get_time_ms(struct timeval not_ms)
+{
+	long long	ms;
+
+	ms = not_ms.tv_sec * 1000 + not_ms.tv_usec / 1000;
+	return (ms);
 }

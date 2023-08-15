@@ -3,4 +3,7 @@
 
 int is_numeric_string(const char *str);
 
+long long	get_now_ms(void);
+long long	get_time_ms(struct timeval not_ms);
+
 #endif
