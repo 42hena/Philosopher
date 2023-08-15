@@ -1,3 +1,4 @@
+#include <unistd.h>
 #include <sys/time.h>
 
 /*
@@ -46,4 +47,9 @@ long long	get_time_ms(struct timeval not_ms)
 
 	ms = not_ms.tv_sec * 1000 + not_ms.tv_usec / 1000;
 	return (ms);
+}
+
+void	run_sleep(int time)
+{
+	usleep(time * 1000);
 }
