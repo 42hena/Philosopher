@@ -31,6 +31,7 @@ int is_all_argv_valid(int argc, char **argv)
 int is_all_argv_positive(int argc, char **argv)
 {
 	int i;
+	int value;
 
 	// check arguments is positive
 	for (i = 1 ; i < argc ; ++i)
