@@ -3,72 +3,75 @@
 #include <pthread.h>
 #include <stdlib.h>
 
+#include "utility.h"
 #include "philos.h"
 
-void init_limit_info(t_philo_info *info, int argc, char **argv)
+t_philo_info g_philo_info;
+
+void init_limit_info(int argc, char **argv)
 {
-	info->number_of_philos = atoi(argv[1]);
-	info->died_time = atoi(argv[2]);
-	info->eating_time = atoi(argv[3]);
-	info->sleeping_time = atoi(argv[4]);
-	info->must_eat_count = 0;
+	g_philo_info.number_of_philos = atoi(argv[1]);
+	g_philo_info.died_time = atoi(argv[2]);
+	g_philo_info.eating_time = atoi(argv[3]);
+	g_philo_info.sleeping_time = atoi(argv[4]);
+	g_philo_info.must_eat_count = 0;
 	if (argc == 6)
-		info->must_eat_count = atoi(argv[5]);
-	info->end = 0;
-	info->philo_list = (t_philo *)malloc(sizeof(t_philo) * info->number_of_philos);
+		g_philo_info.must_eat_count = atoi(argv[5]);
+	g_philo_info.end_flag = 0;
+	g_philo_info.philo_list = (t_philo *)malloc(sizeof(t_philo) * g_philo_info.number_of_philos);
 }
 
-void	init_philos(t_philo_info *info, int argc, char **argv)
+void	init_philos(int argc, char **argv)
 {
 	struct timeval now_time;
 	int	i;
 
 	gettimeofday(&now_time, NULL);
-	for (i = 0 ; i < info->number_of_philos ; ++i)
+	for (i = 0 ; i < g_philo_info.number_of_philos ; ++i)
 	{
-		info->philo_list[i].recent_eat_time = now_time;
-		info->philo_list[i].id = i + 1;
-		info->philo_list[i].leftfork = &info->philo_list[i].mutex;
-		info->philo_list[i].rightfork = &info->philo_list[(i + 1) % \
-									info->number_of_philos].mutex;
-		info->philo_list[i].gameinfo = info;
-		info->philo_list[i].eat_count = 0;
+		g_philo_info.philo_list[i].recent_eat_time = now_time;
+		g_philo_info.philo_list[i].id = i + 1;
+		g_philo_info.philo_list[i].leftfork = &g_philo_info.philo_list[i].mutex;
+		g_philo_info.philo_list[i].rightfork = &g_philo_info.philo_list[(i + 1) % \
+									g_philo_info.number_of_philos].mutex;
+		g_philo_info.philo_list[i].eat_count = 0;
 	}
+	g_philo_info.start_time = get_time_ms(now_time);
 }
 
 // check function
-void print_limit_info(t_philo_info *info)
+void print_limit_info()
 {
 	printf("number_of_philos:%d\n"
 			"died_time       :%d\n"
 			"eating_time     :%d\n"
 			"sleeping_time   :%d\n"
 			"must_eat_count  :%d\n\n",
-		info->number_of_philos,
-		info->died_time,
-		info->eating_time,
-		info->sleeping_time,
-		info->must_eat_count
+		g_philo_info.number_of_philos,
+		g_philo_info.died_time,
+		g_philo_info.eating_time,
+		g_philo_info.sleeping_time,
+		g_philo_info.must_eat_count
 		);
 }
 
-void print_philo_data(t_philo_info *info)
+void print_philo_data()
 {
 	int i;
 
-	for (i = 0 ; i < info->number_of_philos ; ++i)
+	for (i = 0 ; i < g_philo_info.number_of_philos ; ++i)
 	{
 		printf("philo id       :%d\n"
 				"recent_eat_time:%d %d\n"
 				"left  fork     :%p\n"
 				"right fork     :%p\n"
 				"eat_count      :%d\n\n",
-			info->philo_list[i].id,
-			info->philo_list[i].recent_eat_time.tv_sec,
-			info->philo_list[i].recent_eat_time.tv_usec,
-			info->philo_list[i].leftfork,
-			info->philo_list[i].rightfork,
-			info->philo_list[i].eat_count
+			g_philo_info.philo_list[i].id,
+			g_philo_info.philo_list[i].recent_eat_time.tv_sec,
+			g_philo_info.philo_list[i].recent_eat_time.tv_usec,
+			g_philo_info.philo_list[i].leftfork,
+			g_philo_info.philo_list[i].rightfork,
+			g_philo_info.philo_list[i].eat_count
 		);
 	}
 }
