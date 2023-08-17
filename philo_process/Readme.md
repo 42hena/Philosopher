@@ -80,3 +80,26 @@ oflag 파라메터는 or한다. → O_CREAT | O_EXCL
 # ERRORS
 - [EINVAL]
 	- sem 값이 유효한 세마포어 디스크립터가 아닙니다.
+
+
+
+# sem_post -- 세마포어의 락을 해제합니다.
+
+```cpp
+     #include <semaphore.h>
+
+     int
+     sem_post
+	(
+		sem_t *sem
+	);
+```
+
+## DESCRIPTION
+- sem에 의해 참조되는 세마포어는 락이 해제되고, 세마포어의 값은 증가하며, 세마포어를 대기하고 있는 모든 스레드가 깨어납니다.
+- sem_post()함수는 신호들에 대해 재진입하고, 시그널 핸들러에 의해 불릴 수 있습니다.
+- 성공 시 0, 실패 시 -1을 리턴하고 errno를 지정한다.
+
+# ERRORS
+- [EINVAL]
+	- sem 값이 유효한 세마포어 디스크립터가 아닙니다.
