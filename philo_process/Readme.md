@@ -59,3 +59,24 @@ oflag 파라메터는 or한다. → O_CREAT | O_EXCL
     - O_CREAT가 설정되지 않고, 지정된 세마포어가 없음.
 - [ENOSPC]
     - O_CREAT 파라메터가 지정되어 있으며, 파일은 존재하지 않지만 세마포어를 생성하기에는 불분한 공간일 경우
+
+
+# sem_close - 이름 있는 세마포어를 닫음
+
+```cpp
+     #include <semaphore.h>
+
+     int
+     sem_close
+	(
+		sem_t *sem
+	);
+```
+
+## DESCRIPTION
+- 참조된'sem'과 관련된 이름있는 세마포어 시스템 자원은 해제되고, 디스크립터는 유효하지 않게됩니다.
+- 성공 시에 0을 실패시에 -1을 리턴하고 errno가 세팅됩니다.
+
+# ERRORS
+- [EINVAL]
+	- sem 값이 유효한 세마포어 디스크립터가 아닙니다.
