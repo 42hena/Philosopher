@@ -103,3 +103,39 @@ oflag 파라메터는 or한다. → O_CREAT | O_EXCL
 # ERRORS
 - [EINVAL]
 	- sem 값이 유효한 세마포어 디스크립터가 아닙니다.
+
+
+# sem_trywait, sem_waitd -- 세마포어를 락 걸음
+```cpp
+     #include <semaphore.h>
+
+     int
+     sem_trywait
+	(
+		sem_t *sem
+	);
+
+     int
+     sem_wait
+	(
+		sem_t *sem
+	);
+```
+
+## DESCRIPTION
+- 'sem'과 관련된 세마포어가 락 당합니디.
+
+- sem_wait()함수가 불렸을 때 세마포어의 값이 0이라면, lock을 획득하거나 signal에 의해 중단되기 전까지 호출한 스레드는 블럭당합니다.
+
+- 대안으로 sem_trywait()함수는 세마포어가 이미 락 당해있다면 잠길 것이고, 세마포어에 의해 블럭당하지 않음.
+- 성공 시에(락 획득) sem_wait()와 sem_trywait()는 0을 반환하고, 실패시에 -1을 리턴하고 errno를 세팅하고, 세마포어의 상태는 변경되지 않습니다.
+
+# ERRORS
+- [EAGAIN]
+	- 세마포어가 이미 락 걸렸습니다.
+- [EDEADLK]
+	- 데드락이 발견되었습니다.
+- [EINTR]
+	- 시그널에 의해 중단되었습니다.
+- [EINVAL]
+	- 'sem'이 유효하지 않은 세마포어 디스크립터입니다.
