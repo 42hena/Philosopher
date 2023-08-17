@@ -4,16 +4,19 @@
 - 각각의 철학자는 프로세스이며, main 프로세스는 철학자가 아니다.
 
 
-NAME
-     sem_open -- initialize and open a named semaphore
-
-SYNOPSIS
+# sem_open -- 생성 또는 이름 있는 세마포어를 열음
+```cpp
      #include <semaphore.h>
 
-     sem_t *
-     sem_open(const char *name, int oflag, ...);
-
-     The parameters "mode_t mode" and "unsigned int value" are optional.
+	sem_t *sem_open
+	(
+		const char *name, 
+		int oflag[, 
+		mode_t mode, 
+		unsigned int value]
+	); 
+	// The parameters "mode_t mode" and "unsigned int value" are optional.
+```
 
 DESCRIPTION
      The named semaphore named name is initialized and opened as specified by
