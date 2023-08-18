@@ -90,3 +90,24 @@ int	do_pick_forks(t_philo *philo)
 		return (0);
 	return (1);
 }
+
+void	eating(t_philo *philo)
+{
+	long	ms;
+
+	gettimeofday(&philo->recent_eat_time, NULL);
+	if (!g_info.end_flag)
+	{
+		print_message(philo, EATING);
+		philo->eat_count++;
+	}
+}
+
+void	do_eat(t_philo *philo)
+{
+	eating(philo);
+	block_philosopher_ms(g_info.eating_time);
+	sem_post(philo->sem_fork);
+	sem_post(philo->sem_fork);
+	block_philosopher_ms(g_info.sleeping_time);
+}
