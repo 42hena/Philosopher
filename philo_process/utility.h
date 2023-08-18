@@ -5,6 +5,8 @@ int is_numeric_string(const char *str);
 
 long get_now_ms(void);
 long get_time_ms(struct timeval not_ms);
-void run_sleep(int time);
+void block_philosopher_ms(int want_time);
+
+
 
 #endif

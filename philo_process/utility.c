@@ -49,7 +49,7 @@ long	get_time_ms(struct timeval not_ms)
 	return (ms);
 }
 
-void	run_sleep(int time)
+void block_philosopher_ms(int want_time)
 {
-	usleep(time * 1000);
+	usleep(want_time * 1000);
 }
