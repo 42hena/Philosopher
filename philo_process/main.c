@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 #include "check_utility.h"
-// #include "init_philo.h"
+#include "init_philo.h"
 #include "philo_routine.h"
 
 int	main(int argc, char **argv)
@@ -13,6 +13,9 @@ int	main(int argc, char **argv)
 	if (error_code != 0)
 		return (1);
     
+    // init info.
+	init_info(argc, argv);
+
     // main logic
     start_philosopher();
 
