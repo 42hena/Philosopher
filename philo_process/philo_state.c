@@ -2,11 +2,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
+#include <semaphore.h>
 #include <sys/time.h>
+#include <errno.h>
 
 #include "philos.h"
 #include "utility.h"
 
+extern int errno;
 extern t_philo_info g_info;
 
 void print_message(t_philo *philo, int type)
@@ -16,10 +19,11 @@ void print_message(t_philo *philo, int type)
 		{"is thinking", "has taken a left fork", \
 		"has taken a right fork",
 		"is eating", "is sleeping", "is dead"};
-	const long long start_time = g_info.start_time;
+	const long long start_time = philo->start_time;
+	int ret;
 
 	// lock sem_print
-	ret = sem_wait(philo->sem_print);
+	ret = sem_wait(g_info.sem_print);
 	if (ret < 0)
 	{
 		printf("sem_wait Failed:%d\n", errno);
@@ -27,13 +31,13 @@ void print_message(t_philo *philo, int type)
 	}
 
 	gettimeofday(&now, NULL);
-	if (!g_philo_info.end_flag)
+	if (!g_info.end_flag)
 		printf("%-10lldms\tphilos [%3d] %s\n", \
 			get_time_ms(now) - start_time, \
-			philo->id, state_str[type]);
+			philo->philo_id, state_str[type]);
 	
 	// unlock sem_print
-	ret = sem_post(philo->sem_print);
+	ret = sem_post(g_info.sem_print);
 	if (ret < 0)
 	{
 		printf("sem_post Failed:%d\n", errno);
