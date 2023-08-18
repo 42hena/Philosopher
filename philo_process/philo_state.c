@@ -109,5 +109,16 @@ void	do_eat(t_philo *philo)
 	block_philosopher_ms(g_info.eating_time);
 	sem_post(philo->sem_fork);
 	sem_post(philo->sem_fork);
+}
+
+void	do_sleep(t_philo *philo)
+{
+	print_message(philo, SLEEPING);
 	block_philosopher_ms(g_info.sleeping_time);
 }
+
+void	do_think(t_philo *philo)
+{
+	print_message(philo, THINKING);
+}
+

@@ -3,5 +3,7 @@
 
 int     do_pick_forks(t_philo *philo);
 void	do_eat(t_philo *philo);
+void	do_sleep(t_philo *philo);
+void	do_think(t_philo *philo);
 
 #endif
