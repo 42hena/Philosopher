@@ -44,12 +44,11 @@ void init_info(int argc, char **argv)
 
 void init_philos(int id)
 {
-	struct timeval now_time;
-	int	i;
+	// struct timeval now_time;
 
-	gettimeofday(&now_time, NULL);
-	g_philo.start_time = get_time_ms(now_time);
-	g_philo.recent_eat_time = now_time;
+	// gettimeofday(&now_time, NULL);
+	// g_philo.start_time = get_time_ms(now_time);
+	// g_philo.recent_eat_time = now_time;
 	g_philo.philo_id = id;
 	g_philo.eat_count = 0;
 }
