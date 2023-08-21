@@ -23,3 +23,18 @@ printf, malloc, free, write, usleep, gettimeofday,
 #### pthread_mutex_destroy
 #### pthread_mutex_lock
 #### pthread_mutex_unlock
+
+# 데드락 조건
+1. 점유 및 대기 (Hold on Wait)
+    - 자원을 점유한 상태에서 다른 자원을 기다리는 상태
+2. 상호배제 (Mutual exclusion)
+    - 자원을 동시에 공유할 수 없는 상태
+3. 비선점  (No Preemption)
+    - 자원을 뺏지 못하는 상태
+4. 원형 대기 (Circular wait)
+    - 대기하는 프로세스들이 순환을 이루는 상태
+
+
+
+
+
