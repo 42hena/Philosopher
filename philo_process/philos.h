@@ -1,17 +1,29 @@
 #ifndef PHILOS_H
 #define PHILOS_H
 
+enum	e_philo_state
+{	
+	THINKING,
+	PICKING_LEFT_FORK,
+	PICKING_RIGHT_FORK,
+	EATING,
+	SLEEPING,
+	DEAD
+};
+
 typedef struct s_philo
 {
 	// philo info
-	int				state;
+	// enum e_philo_state state; // 미정
 	int				eat_count;
-	pthread_t		thread;
 	struct timeval	recent_eat_time;
+
+	// process info
+	int				philo_id;
+	long			start_time;
 
 	// semaphore info
 	sem_t			*sem_fork;
-	sem_t			*sem_print;
 }					t_philo;
 
 typedef struct s_philo_info
@@ -23,28 +35,18 @@ typedef struct s_philo_info
 	int				died_time;
 	int				must_eat_count;
 
-	// process info
-	int				philo_id;
-	long			start_time;
-
-	// semaphore info
-	sem_t			*sem_monitor;
-	
 	// flag
 	int				end_flag;
+	
+	// semaphore info
+	sem_t			*sem_monitor;
+	sem_t			*sem_print;
 
-	t_philo			philo;
+	// thread 무슨 스레드인지 아직 미정.
+	pthread_t		thread;
 }					t_philo_info;
 
-enum	e_philosopher_state
-{	
-	THINKING,
-	PICKING_LEFT_FORK,
-	PICKING_RIGHT_FORK,
-	EATING,
-	SLEEPING,
-	DEAD
-};
+
 
 enum	e_error_state
 {

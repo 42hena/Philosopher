@@ -5,32 +5,79 @@
 #include <fcntl.h>           /* For O_* constants */
 #include <sys/stat.h>        /* For mode constants */
 #include <semaphore.h>
+#include <pthread.h>
+#include <sys/time.h>
 
 #include <errno.h>
 
-extern int errno;
+#include "philos.h"
+#include "philo_state.h"
+#include "init_philo.h"
+#include "utility.h"
 
-// test 로직
-void philo_routine(int number)
+
+t_philo_info	g_info;
+t_philo			g_philo;
+
+extern int		errno;
+
+void monitor_thread_routine(void *param)
 {
-	sem_t *sem;
+	struct timeval now_time;
 
-	sem = sem_open("philo_fork", O_EXCL);
-	if (sem < 0)
+	g_info.sem_monitor = sem_open("philo_monitor", O_EXCL);
+	if (g_info.sem_monitor < 0)
 	{
 		printf("sem_open Failed:%d\n", errno);
 		return ;
 	}
+
+	while (!g_info.end_flag)
+	{
+		sem_wait(g_info.sem_monitor);
+		gettimeofday(&now_time, NULL);
+		
+		// printf("%ld %d %ld %ld\n", get_time_ms(now_time), g_info.died_time, get_time_ms(g_philo.recent_eat_time), g_info.died_time+ get_time_ms(g_philo.recent_eat_time));
+		if (get_time_ms(now_time) > g_info.died_time + get_time_ms(g_philo.recent_eat_time))
+		{
+			// printf("qwer\n");
+			print_message(&g_philo, DEAD);
+			g_info.end_flag = 1;
+			sem_post(g_info.sem_monitor);
+			
+			
+			break;
+		}
+		g_philo.recent_eat_time = now_time;
+		sem_post(g_info.sem_monitor);
+	}
+}
+
+int philo_routine(int number)
+{
+	sem_t *sem;
 	int ret;
-	ret = sem_wait(sem);
-	printf("ret:%d pid:%d\n", ret, getpid());
-	ret = sem_wait(sem);
-	printf("ret:%d pid:%d\n", ret, getpid());
-	printf("%d가 포크를 들었네요?\n", getpid());
-	sem_post(sem);
-	while (1)
-		;
-	// break;
+	t_philo philo;
+	
+	philo = g_philo;
+
+	g_philo.sem_fork = sem_open("philo_fork", O_EXCL);
+	if (g_philo.sem_fork < 0)
+	{
+		printf("sem_open Failed:%d\n", errno);
+		return (0);
+	}
+	
+	pthread_create(&g_info.thread, NULL, (void *)&monitor_thread_routine, NULL);
+	while (!g_info.end_flag)
+	{
+		ret = do_pick_forks(&philo);
+		do_eat(&philo);
+		do_sleep(&philo);
+		do_think(&philo);
+	}
+	
+	return (1);
 }
 
 /*
@@ -62,9 +109,6 @@ int create_semaphore(sem_t **sem, const char *name, int oflag, mode_t mode, unsi
 int init_semaphore()
 {
 	int ret;
-	sem_t *sem_fork;
-	sem_t *sem_monitor;
-	sem_t *sem_print;
 
 	// delete semaphore
 	// remove "philo_fork"
@@ -95,13 +139,13 @@ int init_semaphore()
 	}
 
 	// create semaphore
-	ret = create_semaphore(&sem_fork, "philo_fork", O_CREAT, 0777, 2);
+	ret = create_semaphore(&g_philo.sem_fork, "philo_fork", O_CREAT, 0777, g_info.number_of_philos);
 	if (ret < 0)
 		return (0);
-	ret = create_semaphore(&sem_monitor, "philo_monitor", O_CREAT, 0777, 1);
+	ret = create_semaphore(&g_info.sem_monitor, "philo_monitor", O_CREAT, 0777, 1);
 	if (ret < 0)
 		return (0);
-	ret = create_semaphore(&sem_print, "philo_print", O_CREAT, 0777, 1);
+	ret = create_semaphore(&g_info.sem_print, "philo_print", O_CREAT, 0777, 1);
 	if (ret < 0)
 		return (0);
 	return (1);
@@ -120,6 +164,7 @@ int start_philosopher()
 	pid_t now_pid;
 	int ret;
 	int i;
+	struct timeval now_time;
 
 	// Init semaphore
 	ret = init_semaphore();
@@ -130,13 +175,18 @@ int start_philosopher()
 	}
 	
 	// create pid array.
-	pid = (pid_t *)malloc(sizeof(pid_t) * 200); // TODO: 200이 아닌 philo 숫자만큼으로 바꿔야한다.
+	pid = (pid_t *)malloc(sizeof(pid_t) * g_info.number_of_philos); // TODO: 200이 아닌 philo 숫자만큼으로 바꿔야한다.
 
 	// set my process id.
 	now_pid = getpid();
 
+	
+	gettimeofday(&now_time, NULL);
+	g_philo.start_time = get_time_ms(now_time);
+	g_philo.recent_eat_time = now_time;
+
 	// create as many processes as there are philosophers
-	for (i = 0 ; i < 3 ; ++i) // TODO: 3이 아닌 philo 숫자만큼으로 바꿔야한다.
+	for (i = 0 ; i < g_info.number_of_philos ; ++i) // TODO: 3이 아닌 philo 숫자만큼으로 바꿔야한다.
 	{
 		// fork the process
 		pid[i] = fork();
@@ -144,13 +194,15 @@ int start_philosopher()
 		// parent process
 		if (pid[i] > 0)
 		{
-			printf("프로세스 %d가 pid:%d를 생성하였습니다\n", now_pid, pid[i]);
+			// printf("프로세스 %d가 pid:%d를 생성하였습니다\n", now_pid, pid[i]);
 		}
 
 		// child process
 		else if (pid[i] == 0)
 		{
-			philo_routine(1);
+			init_philos(i + 1);
+			// print_philo_data();
+			philo_routine(i + 1);
 			return (1);
 		}
 
@@ -163,6 +215,8 @@ int start_philosopher()
 	}
 
 	// TODO: wait 찾고 바꿔줘야 함.
-	wait(NULL);
+	for (i = 0 ; i < g_info.number_of_philos ; ++i)
+		wait(NULL);
+	free(pid);
 	return (1);
 }
