@@ -1,7 +1,7 @@
 #ifndef __INIT_PHILO_H__
 #define __INIT_PHILO_H__
 
-void init_limit_info(int argc, char **argv);
+void init_dining_info(int argc, char **argv);
 void init_philos(int argc, char **argv);
 
 

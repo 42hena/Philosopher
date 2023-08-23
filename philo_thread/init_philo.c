@@ -8,7 +8,7 @@
 
 t_philo_info g_philo_info;
 
-void init_limit_info(int argc, char **argv)
+void init_dining_info(int argc, char **argv)
 {
 	g_philo_info.number_of_philos = atoi(argv[1]);
 	g_philo_info.died_time = atoi(argv[2]);
