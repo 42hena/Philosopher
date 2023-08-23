@@ -44,7 +44,7 @@ typedef struct s_philo_info
 
 	// 
 	pthread_mutex_t	print_mutex;	
-}					t_philo_info;
+}					t_dining_info;
 
 enum	e_philosopher_state
 {	

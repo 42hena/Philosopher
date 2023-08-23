@@ -10,7 +10,7 @@
 #define TRUE 1
 #define FALSE 0
 
-extern t_philo_info g_philo_info;
+extern t_dining_info g_dining_info;
 
 void *philo_routine_thread(void *param)
 {
@@ -20,11 +20,11 @@ void *philo_routine_thread(void *param)
 
 	if (philo->id % 2 == 0)
 	{
-		usleep(g_philo_info.eating_time * 1000);
-		// run_sleep(g_philo_info.eating_time);
+		usleep(g_dining_info.eating_time * 1000);
+		// run_sleep(g_dining_info.eating_time);
 	}
 
-	while (!g_philo_info.end_flag)
+	while (!g_dining_info.end_flag)
 	{
 		do_pick(philo);
 		do_eat(philo);
@@ -40,18 +40,18 @@ void monitor_philos()
 	int philo_number;
 
 	long long timestamp;
-	const long long start_time = g_philo_info.start_time;
-	philo_number = g_philo_info.number_of_philos;
+	const long long start_time = g_dining_info.start_time;
+	philo_number = g_dining_info.number_of_philos;
 	
 	timestamp = get_now_ms();
 	for (i = 0 ; i < philo_number ; ++i)
 	{	
-		if (!g_philo_info.end_flag&& (timestamp - get_time_ms(g_philo_info.philo_list[i].recent_eat_time)) >= g_philo_info.died_time)
+		if (!g_dining_info.end_flag&& (timestamp - get_time_ms(g_dining_info.philo_list[i].recent_eat_time)) >= g_dining_info.died_time)
 		{
-			g_philo_info.end_flag = TRUE;
-			pthread_mutex_lock(&g_philo_info.print_mutex);
+			g_dining_info.end_flag = TRUE;
+			pthread_mutex_lock(&g_dining_info.print_mutex);
 			printf("%lld msphilo id:%d Died\n", timestamp - start_time, i + 1);
-			pthread_mutex_unlock(&g_philo_info.print_mutex);
+			pthread_mutex_unlock(&g_dining_info.print_mutex);
 			break ;
 		}
 	}
@@ -62,24 +62,24 @@ void begin_philosopher_routines()
 	int i;
 	int philo_number;
 
-	philo_number = g_philo_info.number_of_philos;
+	philo_number = g_dining_info.number_of_philos;
 
 	printf("Philosopher problem start\n");
 	for (i = 0 ; i < philo_number ; ++i)
 	{
-		pthread_create(&(g_philo_info.philo_list[i].philo), \
-		NULL, philo_routine_thread, (void *)&g_philo_info.philo_list[i]);
-		pthread_detach(g_philo_info.philo_list[i].philo);
+		pthread_create(&(g_dining_info.philo_list[i].philo), \
+		NULL, philo_routine_thread, (void *)&g_dining_info.philo_list[i]);
+		pthread_detach(g_dining_info.philo_list[i].philo);
 	}
 	
-	while (!g_philo_info.end_flag)
+	while (!g_dining_info.end_flag)
 	{
 		monitor_philos();
 	}
 
 	for (i = 0 ; i < philo_number ; ++i)
 	{
-		pthread_join(g_philo_info.philo_list[i].philo, NULL);
+		pthread_join(g_dining_info.philo_list[i].philo, NULL);
 	}
 
 	printf("Philosopher problem end\n");
