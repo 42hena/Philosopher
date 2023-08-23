@@ -14,7 +14,7 @@ void init_limit_info(int argc, char **argv)
 	g_philo_info.died_time = atoi(argv[2]);
 	g_philo_info.eating_time = atoi(argv[3]);
 	g_philo_info.sleeping_time = atoi(argv[4]);
-	g_philo_info.must_eat_count = 0;
+	g_philo_info.must_eat_count = -1;
 	if (argc == 6)
 		g_philo_info.must_eat_count = atoi(argv[5]);
 	g_philo_info.end_flag = 0;
