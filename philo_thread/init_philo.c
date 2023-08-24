@@ -19,6 +19,9 @@ void init_dining_info(int argc, char **argv)
 		g_dining_info.must_eat_count = atoi(argv[5]);
 	g_dining_info.end_flag = 0;
 	g_dining_info.philo_list = (t_philo *)malloc(sizeof(t_philo) * g_dining_info.number_of_philos);
+
+	// create print_mutex
+	pthread_mutex_init(&g_dining_info.print_mutex, NULL);
 }
 
 void	init_philos(int argc, char **argv)
@@ -35,6 +38,9 @@ void	init_philos(int argc, char **argv)
 		g_dining_info.philo_list[i].rightfork = &g_dining_info.philo_list[(i + 1) % \
 									g_dining_info.number_of_philos].mutex;
 		g_dining_info.philo_list[i].eat_count = 0;
+
+		// create fork mutex
+		pthread_mutex_init(&g_dining_info.philo_list[i].mutex, NULL);
 	}
 	g_dining_info.start_time = get_time_ms(now_time);
 }
