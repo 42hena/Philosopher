@@ -39,22 +39,23 @@ void monitor_philos()
 	int i;
 	int philo_number;
 
-	long long timestamp;
-	const long long start_time = g_dining_info.start_time;
+	long timestamp;
+	const long start_time = g_dining_info.start_time;
 	philo_number = g_dining_info.number_of_philos;
 	
+	
+	pthread_mutex_lock(&g_dining_info.print_mutex);
 	timestamp = get_now_ms();
 	for (i = 0 ; i < philo_number ; ++i)
 	{	
-		if (!g_dining_info.end_flag&& (timestamp - get_time_ms(g_dining_info.philo_list[i].recent_eat_time)) >= g_dining_info.died_time)
+		if (timestamp - get_time_ms(g_dining_info.philo_list[i].recent_eat_time) >= g_dining_info.died_time)
 		{
 			g_dining_info.end_flag = TRUE;
-			pthread_mutex_lock(&g_dining_info.print_mutex);
-			printf("%lld msphilo id:%d Died\n", timestamp - start_time, i + 1);
-			pthread_mutex_unlock(&g_dining_info.print_mutex);
+			printf("%-10ldms\tphilos [%3d] Died\n", timestamp - start_time, i + 1);
 			break ;
 		}
 	}
+	pthread_mutex_unlock(&g_dining_info.print_mutex);
 }
 
 void begin_philosopher_routines()
@@ -79,7 +80,7 @@ void begin_philosopher_routines()
 
 	for (i = 0 ; i < philo_number ; ++i)
 	{
-		pthread_join(g_dining_info.philo_list[i].philo, NULL);
+		pthread_join(g_dining_info.philo_list[i].philo, NULL); // TODO: Add join return value for finding DEAD_LOCK
 	}
 
 	printf("Philosopher problem end\n");
