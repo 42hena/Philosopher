@@ -12,7 +12,7 @@ int	main(int argc, char **argv)
 		return (1);
 	
 	// Init basic info
-	init_limit_info(argc, argv);
+	init_dining_info(argc, argv);
 
 	// Init philos
 	init_philos(argc, argv);

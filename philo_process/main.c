@@ -1,3 +1,4 @@
+#include <unistd.h>
 #include <stdio.h>
 
 #include "check_utility.h"
@@ -19,6 +20,6 @@ int	main(int argc, char **argv)
     // main logic
     start_philosopher();
 
-    printf("모든 프로세스가 종료되었습니다.\n");
+    printf("pid: %d가 종료되었습니다.\n", getpid());
 	return (0);
 }

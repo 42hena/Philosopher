@@ -33,7 +33,7 @@ int is_numeric_string(const char *str)
 	return (1);
 }
 
-long long	get_now_ms(void)
+long get_now_ms(void)
 {
 	struct timeval	tv;
 
@@ -41,15 +41,15 @@ long long	get_now_ms(void)
 	return (tv.tv_sec * 1000 + tv.tv_usec / 1000);
 }
 
-long long	get_time_ms(struct timeval not_ms)
+long get_time_ms(const struct timeval now_ms)
 {
-	long long	ms;
+	long	ms;
 
-	ms = not_ms.tv_sec * 1000 + not_ms.tv_usec / 1000;
+	ms = now_ms.tv_sec * 1000 + now_ms.tv_usec / 1000;
 	return (ms);
 }
 
-void	run_sleep(int time)
+void run_sleep(const int duration)
 {
-	usleep(time * 1000);
+	usleep(duration * 1000);
 }
