@@ -1,5 +1,5 @@
 # Dining philosophers problem
-/Users/hena/42Seoul/img/Dining.png
+![image](https://github.com/42hena/Philosopher/assets/86128914/1dfa703d-6f8f-42f7-a1e3-b7f497dc34da)
 
 ## Deadlock 처리 방법 - (3 ways)
 1. Deadlock prevention or avoidance:
