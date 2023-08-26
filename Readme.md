@@ -1,4 +1,6 @@
 # Dining philosophers problem
+/Users/hena/42Seoul/img/Dining.png
+
 ## Deadlock 처리 방법 - (3 ways)
 1. Deadlock prevention or avoidance:
 
