@@ -46,3 +46,9 @@ printf, malloc, free, write, usleep, gettimeofday,
     A를 획득한 상황에서 B를 얻으려고 시도했는데 B를 얻지 못했다면 A를 해제해버린다.
 
 
+
+
+
+# TODO
+1. 해제 기법
+2. nanosleep 
