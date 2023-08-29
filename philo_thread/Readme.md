@@ -54,6 +54,16 @@ pthread_detach
 - 동일한 대상 스레드에서 여러 pthread_detach() 호출의 효과는 지정되지 않습니다.
 
 #### pthread_join
+```cpp
+#include <pthread.h>
+int
+pthread_join
+(
+	pthread_t thread, 
+	void **value_ptr
+);
+```
+
 #### pthread_mutex_init
 #### pthread_mutex_destroy
 #### pthread_mutex_lock
