@@ -40,6 +40,15 @@ pthread_create
 - 새로 생성된 스레드에서 pthread_detach()에 대한 호출과 동일한 효과를 얻기 위해 pthread_attr_setdetachstate() 함수를 pthread_create()에 전달된 속성 인수에서 사용할 수 있습니다.
 
 #### pthread_detach
+```cpp
+#include <pthread.h>
+
+int
+pthread_detach
+(
+	pthread_t thread
+);
+```
 #### pthread_join
 #### pthread_mutex_init
 #### pthread_mutex_destroy
