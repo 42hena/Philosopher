@@ -17,6 +17,18 @@ printf, malloc, free, write, usleep, gettimeofday,
 
 ### Thread function
 #### pthread_create
+```cpp
+#include <pthread.h>
+
+int
+pthread_create
+(
+	pthread_t *thread, 
+	const pthread_attr_t *attr,
+	void *(*start_routine)(void *), 
+	void *arg
+);
+```
 #### pthread_detach
 #### pthread_join
 #### pthread_mutex_init
