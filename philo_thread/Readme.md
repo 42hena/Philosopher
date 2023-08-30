@@ -94,6 +94,18 @@ pthread_mutex_destroy
 - 뮤텍스에 할당된 리소스를 해제합니다.
 
 #### pthread_mutex_lock
+```cpp
+#include <pthread.h>
+
+int
+pthread_mutex_lock
+(
+	pthread_mutex_t *mutex
+);
+```
+- mutex를 lock함.
+- 이미 lock이 걸려있을 시에 함수를 호출한 스레드는 mutex를 사용할 수 있을 때까지 block됨.
+
 #### pthread_mutex_unlock
 
 # TODO
