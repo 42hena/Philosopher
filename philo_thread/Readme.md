@@ -82,6 +82,15 @@ pthread_mutex_init(
 - attr이 NULL값이면 기본 속성을 사용. 
 
 #### pthread_mutex_destroy
+```cpp
+#include <pthread.h>
+
+int
+pthread_mutex_destroy
+(
+	pthread_mutex_t *mutex
+);
+```
 #### pthread_mutex_lock
 #### pthread_mutex_unlock
 
