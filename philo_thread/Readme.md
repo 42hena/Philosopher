@@ -78,7 +78,8 @@ pthread_mutex_init(
 	const pthread_mutexattr_t *attr
 );
 ```
-
+- attr로 지정된 속성으로 새로운 mutex를 생성.
+- attr이 NULL값이면 기본 속성을 사용. 
 
 #### pthread_mutex_destroy
 #### pthread_mutex_lock
