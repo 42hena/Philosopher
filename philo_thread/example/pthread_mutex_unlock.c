@@ -1,8 +1,6 @@
-#include <pthread.h>
-#include <errno.h>
 #include <stdio.h>
+#include <pthread.h>
 
-extern int errno;
 int main()
 {
     pthread_mutex_t m;
