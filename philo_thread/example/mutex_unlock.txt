@@ -1,0 +1,10 @@
+22 1
+Test 1 unlock | ret:22
+Test 2 lock | ret:22
+Test 2 unlock | ret:22
+Test 2 unlock | ret:22
+Test 3 Init | ret:0
+Test 3 unlock | ret:0
+Test 4 lock | ret:0
+Test 4 unlock | ret:0
+Test 4 unlock | ret:0
