@@ -1,0 +1,8 @@
+22 16
+zsh: illegal hardware instruction
+Test 2 Destroy uncreate m | ret:22
+Test 3 init lock m | ret:0
+Test 3 Destroy lock m | ret:0
+Test 4 init m | ret:0
+Test 4 lock m | ret:0
+Test 4 Destroy lock m | ret:16
