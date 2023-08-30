@@ -107,6 +107,17 @@ pthread_mutex_lock
 - 이미 lock이 걸려있을 시에 함수를 호출한 스레드는 mutex를 사용할 수 있을 때까지 block됨.
 
 #### pthread_mutex_unlock
+```cpp
+#include <pthread.h>
+
+int
+pthread_mutex_unlock
+(
+	pthread_mutex_t *mutex
+);
+```
+- mutex lock을 가지고 있을 시에 unlock함.
+- lock을 가지고 있지 않은 호출 스레드가 호출 시 UB 발생.
 
 # TODO
 1. 해제 기법
