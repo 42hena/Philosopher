@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <pthread.h>
-#include <errno.h>
+
 int main()
 {
     pthread_mutex_t m;

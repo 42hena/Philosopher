@@ -5,7 +5,7 @@ int main()
 {
     pthread_mutex_t m;
     int ret;
-    // 1. 생성되지 않은 뮤텍스를 unlo
+    // 1. 생성되지 않은 뮤텍스를 unlock
     ret = pthread_mutex_unlock(&m);
     printf("Test 1 unlock | ret:%d\n", ret);
     // Test 1 unlock | ret:22
