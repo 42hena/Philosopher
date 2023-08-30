@@ -91,6 +91,8 @@ pthread_mutex_destroy
 	pthread_mutex_t *mutex
 );
 ```
+- 뮤텍스에 할당된 리소스를 해제합니다.
+
 #### pthread_mutex_lock
 #### pthread_mutex_unlock
 
