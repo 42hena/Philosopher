@@ -42,6 +42,7 @@ void monitor_philos()
 	long timestamp;
 	const long start_time = g_dining_info.start_time;
 	philo_number = g_dining_info.number_of_philos;
+	const int must_eat_count = g_dining_info.must_eat_count;
 	
 	
 	pthread_mutex_lock(&g_dining_info.print_mutex);
@@ -52,6 +53,12 @@ void monitor_philos()
 		{
 			g_dining_info.end_flag = TRUE;
 			printf("%-10ldms\tphilos [%3d] Died\n", timestamp - start_time, i + 1);
+			break ;
+		}
+		if (g_dining_info.philo_list[i].eat_count >= must_eat_count)
+		{
+			g_dining_info.end_flag = TRUE;
+			printf("%-10ldms\tphilos [%3d] Eat End\n", timestamp - start_time, i + 1);
 			break ;
 		}
 	}
