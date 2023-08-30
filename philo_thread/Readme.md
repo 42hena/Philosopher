@@ -69,6 +69,17 @@ pthread_join
 - pthread_join()이 성공적으로 반환되면 대상 스레드가 종료됩니다.
 
 #### pthread_mutex_init
+```cpp
+#include <pthread.h>
+
+int
+pthread_mutex_init(
+	pthread_mutex_t *mutex, 
+	const pthread_mutexattr_t *attr
+);
+```
+
+
 #### pthread_mutex_destroy
 #### pthread_mutex_lock
 #### pthread_mutex_unlock
