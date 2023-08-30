@@ -64,6 +64,10 @@ pthread_join
 );
 ```
 
+- 대상 스레드가 아직 종료되지 않은 경우 대상 스레드가 종료될 때까지 호출 스레드의 실행을 일시 중단.
+- 성공적으로 완료된 pthread_join() 호출에서 value_ptr 인수가 NULL이 아닌 값으로 지정된 경우, 종료되는 스레드에서 pthread_exit()에 의해 전달된 값이 value_ptr이 참조하는 위치에 저장됩니다.
+- pthread_join()이 성공적으로 반환되면 대상 스레드가 종료됩니다.
+
 #### pthread_mutex_init
 #### pthread_mutex_destroy
 #### pthread_mutex_lock
