@@ -55,7 +55,7 @@ void monitor_philos()
 			printf("%-10ldms\tphilos [%3d] Died\n", timestamp - start_time, i + 1);
 			break ;
 		}
-		if (g_dining_info.philo_list[i].eat_count >= must_eat_count)
+		if (must_eat_count != -1 && g_dining_info.philo_list[i].eat_count >= must_eat_count)
 		{
 			g_dining_info.end_flag = TRUE;
 			printf("%-10ldms\tphilos [%3d] Eat End\n", timestamp - start_time, i + 1);
