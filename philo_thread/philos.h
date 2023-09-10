@@ -43,7 +43,10 @@ typedef struct s_dining_info
 	pthread_mutex_t	*eat_time_mutex;
 
 	// 
-	pthread_mutex_t	print_mutex;	
+	pthread_mutex_t	print_mutex;
+	
+	// thread 생성 속도로 인한 시간 차이
+	pthread_mutex_t	mtx_create;
 }					t_dining_info;
 
 enum	e_philosopher_state
