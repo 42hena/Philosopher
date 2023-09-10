@@ -20,10 +20,16 @@ void *philo_routine_thread(void *param)
 
 	philo = (t_philo *)param;
 
+	// 생성 시 전부 블락 상태를 걸리게 함.
+	pthread_mutex_lock(&g_dining_info.mtx_create);
+
+	// 락 획득을 풀어줌으로써 다른 스레드가 돌게 함.
+	pthread_mutex_unlock(&g_dining_info.mtx_create);
+
+	// 환형대기를 막기 위해 순서를 정해줌.
 	if (philo->id % 2 == 0)
 	{
 		usleep(g_dining_info.eating_time * 1000);
-		// run_sleep(g_dining_info.eating_time);
 	}
 
 	while (!g_dining_info.end_flag)
@@ -76,17 +82,29 @@ void begin_philosopher_routines()
 	int pthread_join_ret;
 // -----
 
-
+	// 재사용을 위해 number에 저장함.
 	philo_number = g_dining_info.number_of_philos;
 
 	printf("Philosopher problem start\n");
-	for (i = 0 ; i < philo_number ; ++i)
+	pthread_mutex_lock(&g_dining_info.mtx_create);
+	// 홀수 번째 먼저 생성.
+	for (i = 1 ; i < philo_number ; i += 2)
 	{
-		pthread_create(&(g_dining_info.philo_list[i].philo), \
-		NULL, philo_routine_thread, (void *)&g_dining_info.philo_list[i]);
+		pthread_create(&(g_dining_info.philo_list[i].philo), NULL, philo_routine_thread, (void *)&g_dining_info.philo_list[i]);
 		pthread_detach(g_dining_info.philo_list[i].philo);
 	}
-	
+
+	// 짝수 번째 먼저 생성.
+	for (i = 0 ; i < philo_number ; i += 2)
+	{
+		pthread_create(&(g_dining_info.philo_list[i].philo), NULL, philo_routine_thread, (void *)&g_dining_info.philo_list[i]);
+		pthread_detach(g_dining_info.philo_list[i].philo);
+	}
+
+	// mtx_create 락을 해제함으로써 동시에 시작하게 만듬.
+	pthread_mutex_unlock(&g_dining_info.mtx_create);
+
+	// main에서 monitor th역할을 하도록 함.
 	while (!g_dining_info.end_flag)
 	{
 		monitor_philos();
