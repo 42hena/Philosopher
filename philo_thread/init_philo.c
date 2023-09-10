@@ -20,8 +20,11 @@ void init_dining_info(int argc, char **argv)
 	g_dining_info.end_flag = 0;
 	g_dining_info.philo_list = (t_philo *)malloc(sizeof(t_philo) * g_dining_info.number_of_philos);
 
-	// create print_mutex
+	// create mtx_print
 	pthread_mutex_init(&g_dining_info.print_mutex, NULL);
+
+	// create mtx_print
+	pthread_mutex_init(&g_dining_info.mtx_create, NULL);
 }
 
 void	init_philos(int argc, char **argv)
