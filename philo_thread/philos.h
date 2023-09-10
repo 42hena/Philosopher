@@ -21,7 +21,7 @@ typedef struct s_philo
 	// int				state;
 }					t_philo;
 
-typedef struct s_philo_info
+typedef struct s_dining_info
 {
 	// A variable to store the input values received in the main function.
 	int				number_of_philos;
