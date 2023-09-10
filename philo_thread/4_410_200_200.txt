@@ -1,0 +1,2637 @@
+Philosopher problem start
+0         ms	philos [  1] has taken a left fork
+0         ms	philos [  1] has taken a right fork
+0         ms	philos [  1] is eating
+0         ms	philos [  1] is sleeping
+0         ms	philos [  3] has taken a left fork
+0         ms	philos [  3] has taken a right fork
+0         ms	philos [  3] is eating
+0         ms	philos [  3] is sleeping
+203       ms	philos [  1] is thinking
+203       ms	philos [  1] has taken a left fork
+203       ms	philos [  2] has taken a left fork
+203       ms	philos [  3] is thinking
+203       ms	philos [  4] has taken a left fork
+203       ms	philos [  2] has taken a right fork
+203       ms	philos [  2] is eating
+203       ms	philos [  3] has taken a left fork
+203       ms	philos [  2] is sleeping
+203       ms	philos [  1] has taken a right fork
+203       ms	philos [  1] is eating
+203       ms	philos [  1] is sleeping
+203       ms	philos [  4] has taken a right fork
+203       ms	philos [  4] is eating
+203       ms	philos [  4] is sleeping
+203       ms	philos [  3] has taken a right fork
+203       ms	philos [  3] is eating
+203       ms	philos [  3] is sleeping
+404       ms	philos [  1] is thinking
+404       ms	philos [  3] is thinking
+404       ms	philos [  3] has taken a left fork
+404       ms	philos [  3] has taken a right fork
+404       ms	philos [  3] is eating
+404       ms	philos [  1] has taken a left fork
+404       ms	philos [  1] has taken a right fork
+404       ms	philos [  1] is eating
+404       ms	philos [  2] is thinking
+404       ms	philos [  2] has taken a left fork
+404       ms	philos [  2] has taken a right fork
+404       ms	philos [  2] is eating
+404       ms	philos [  2] is sleeping
+404       ms	philos [  1] is sleeping
+404       ms	philos [  4] is thinking
+404       ms	philos [  4] has taken a left fork
+404       ms	philos [  4] has taken a right fork
+404       ms	philos [  3] is sleeping
+404       ms	philos [  4] is eating
+404       ms	philos [  4] is sleeping
+604       ms	philos [  1] is thinking
+604       ms	philos [  1] has taken a left fork
+604       ms	philos [  4] is thinking
+604       ms	philos [  4] has taken a left fork
+604       ms	philos [  2] is thinking
+604       ms	philos [  3] is thinking
+604       ms	philos [  3] has taken a left fork
+604       ms	philos [  1] has taken a right fork
+604       ms	philos [  1] is eating
+604       ms	philos [  4] has taken a right fork
+604       ms	philos [  2] has taken a left fork
+604       ms	philos [  4] is eating
+604       ms	philos [  1] is sleeping
+604       ms	philos [  3] has taken a right fork
+604       ms	philos [  3] is eating
+604       ms	philos [  4] is sleeping
+604       ms	philos [  3] is sleeping
+604       ms	philos [  2] has taken a right fork
+604       ms	philos [  2] is eating
+604       ms	philos [  2] is sleeping
+809       ms	philos [  2] is thinking
+809       ms	philos [  2] has taken a left fork
+809       ms	philos [  1] is thinking
+809       ms	philos [  1] has taken a left fork
+809       ms	philos [  2] has taken a right fork
+809       ms	philos [  2] is eating
+809       ms	philos [  4] is thinking
+809       ms	philos [  1] has taken a right fork
+809       ms	philos [  4] has taken a left fork
+809       ms	philos [  1] is eating
+809       ms	philos [  2] is sleeping
+809       ms	philos [  3] is thinking
+809       ms	philos [  4] has taken a right fork
+809       ms	philos [  3] has taken a left fork
+809       ms	philos [  4] is eating
+809       ms	philos [  4] is sleeping
+809       ms	philos [  1] is sleeping
+809       ms	philos [  3] has taken a right fork
+809       ms	philos [  3] is eating
+809       ms	philos [  3] is sleeping
+1010      ms	philos [  3] is thinking
+1010      ms	philos [  3] has taken a left fork
+1010      ms	philos [  2] is thinking
+1010      ms	philos [  1] is thinking
+1010      ms	philos [  1] has taken a left fork
+1010      ms	philos [  3] has taken a right fork
+1010      ms	philos [  4] is thinking
+1010      ms	philos [  2] has taken a left fork
+1010      ms	philos [  3] is eating
+1010      ms	philos [  3] is sleeping
+1010      ms	philos [  2] has taken a right fork
+1010      ms	philos [  2] is eating
+1010      ms	philos [  2] is sleeping
+1010      ms	philos [  4] has taken a left fork
+1010      ms	philos [  1] has taken a right fork
+1010      ms	philos [  1] is eating
+1010      ms	philos [  4] has taken a right fork
+1010      ms	philos [  4] is eating
+1010      ms	philos [  4] is sleeping
+1010      ms	philos [  1] is sleeping
+1210      ms	philos [  3] is thinking
+1210      ms	philos [  3] has taken a left fork
+1210      ms	philos [  3] has taken a right fork
+1210      ms	philos [  3] is eating
+1210      ms	philos [  3] is sleeping
+1210      ms	philos [  2] is thinking
+1210      ms	philos [  1] is thinking
+1210      ms	philos [  1] has taken a left fork
+1210      ms	philos [  4] is thinking
+1210      ms	philos [  4] has taken a left fork
+1210      ms	philos [  2] has taken a left fork
+1210      ms	philos [  2] has taken a right fork
+1210      ms	philos [  2] is eating
+1210      ms	philos [  2] is sleeping
+1210      ms	philos [  1] has taken a right fork
+1210      ms	philos [  1] is eating
+1210      ms	philos [  1] is sleeping
+1210      ms	philos [  4] has taken a right fork
+1211      ms	philos [  4] is eating
+1211      ms	philos [  4] is sleeping
+1412      ms	philos [  3] is thinking
+1412      ms	philos [  3] has taken a left fork
+1412      ms	philos [  3] has taken a right fork
+1412      ms	philos [  3] is eating
+1412      ms	philos [  3] is sleeping
+1412      ms	philos [  2] is thinking
+1412      ms	philos [  2] has taken a left fork
+1412      ms	philos [  1] is thinking
+1412      ms	philos [  2] has taken a right fork
+1412      ms	philos [  4] is thinking
+1412      ms	philos [  1] has taken a left fork
+1412      ms	philos [  4] has taken a left fork
+1412      ms	philos [  2] is eating
+1412      ms	philos [  2] is sleeping
+1412      ms	philos [  1] has taken a right fork
+1412      ms	philos [  1] is eating
+1412      ms	philos [  4] has taken a right fork
+1412      ms	philos [  1] is sleeping
+1412      ms	philos [  4] is eating
+1412      ms	philos [  4] is sleeping
+1614      ms	philos [  2] is thinking
+1614      ms	philos [  2] has taken a left fork
+1614      ms	philos [  3] is thinking
+1614      ms	philos [  2] has taken a right fork
+1614      ms	philos [  2] is eating
+1614      ms	philos [  1] is thinking
+1614      ms	philos [  1] has taken a left fork
+1614      ms	philos [  4] is thinking
+1614      ms	philos [  1] has taken a right fork
+1614      ms	philos [  1] is eating
+1614      ms	philos [  1] is sleeping
+1614      ms	philos [  4] has taken a left fork
+1614      ms	philos [  2] is sleeping
+1614      ms	philos [  4] has taken a right fork
+1614      ms	philos [  4] is eating
+1614      ms	philos [  3] has taken a left fork
+1614      ms	philos [  3] has taken a right fork
+1614      ms	philos [  3] is eating
+1614      ms	philos [  3] is sleeping
+1614      ms	philos [  4] is sleeping
+1815      ms	philos [  4] is thinking
+1815      ms	philos [  3] is thinking
+1815      ms	philos [  3] has taken a left fork
+1815      ms	philos [  4] has taken a left fork
+1815      ms	philos [  4] has taken a right fork
+1815      ms	philos [  4] is eating
+1815      ms	philos [  2] is thinking
+1815      ms	philos [  2] has taken a left fork
+1815      ms	philos [  4] is sleeping
+1815      ms	philos [  1] is thinking
+1815      ms	philos [  1] has taken a left fork
+1815      ms	philos [  3] has taken a right fork
+1815      ms	philos [  3] is eating
+1815      ms	philos [  3] is sleeping
+1815      ms	philos [  2] has taken a right fork
+1815      ms	philos [  2] is eating
+1815      ms	philos [  1] has taken a right fork
+1815      ms	philos [  1] is eating
+1815      ms	philos [  2] is sleeping
+1815      ms	philos [  1] is sleeping
+2018      ms	philos [  2] is thinking
+2018      ms	philos [  2] has taken a left fork
+2018      ms	philos [  2] has taken a right fork
+2018      ms	philos [  2] is eating
+2018      ms	philos [  2] is sleeping
+2019      ms	philos [  1] is thinking
+2019      ms	philos [  1] has taken a left fork
+2019      ms	philos [  1] has taken a right fork
+2019      ms	philos [  1] is eating
+2019      ms	philos [  1] is sleeping
+2019      ms	philos [  3] is thinking
+2019      ms	philos [  3] has taken a left fork
+2019      ms	philos [  3] has taken a right fork
+2019      ms	philos [  3] is eating
+2019      ms	philos [  3] is sleeping
+2019      ms	philos [  4] is thinking
+2019      ms	philos [  4] has taken a left fork
+2019      ms	philos [  4] has taken a right fork
+2019      ms	philos [  4] is eating
+2019      ms	philos [  4] is sleeping
+2218      ms	philos [  2] is thinking
+2218      ms	philos [  2] has taken a left fork
+2218      ms	philos [  2] has taken a right fork
+2218      ms	philos [  2] is eating
+2218      ms	philos [  2] is sleeping
+2219      ms	philos [  1] is thinking
+2219      ms	philos [  4] is thinking
+2219      ms	philos [  4] has taken a left fork
+2219      ms	philos [  1] has taken a left fork
+2219      ms	philos [  1] has taken a right fork
+2219      ms	philos [  1] is eating
+2219      ms	philos [  4] has taken a right fork
+2219      ms	philos [  1] is sleeping
+2219      ms	philos [  3] is thinking
+2219      ms	philos [  3] has taken a left fork
+2219      ms	philos [  4] is eating
+2219      ms	philos [  4] is sleeping
+2219      ms	philos [  3] has taken a right fork
+2219      ms	philos [  3] is eating
+2219      ms	philos [  3] is sleeping
+2419      ms	philos [  2] is thinking
+2419      ms	philos [  2] has taken a left fork
+2419      ms	philos [  2] has taken a right fork
+2419      ms	philos [  2] is eating
+2419      ms	philos [  2] is sleeping
+2423      ms	philos [  1] is thinking
+2423      ms	philos [  4] is thinking
+2423      ms	philos [  4] has taken a left fork
+2423      ms	philos [  1] has taken a left fork
+2423      ms	philos [  1] has taken a right fork
+2423      ms	philos [  1] is eating
+2423      ms	philos [  3] is thinking
+2423      ms	philos [  3] has taken a left fork
+2423      ms	philos [  1] is sleeping
+2423      ms	philos [  4] has taken a right fork
+2423      ms	philos [  4] is eating
+2424      ms	philos [  4] is sleeping
+2424      ms	philos [  3] has taken a right fork
+2424      ms	philos [  3] is eating
+2424      ms	philos [  3] is sleeping
+2623      ms	philos [  2] is thinking
+2623      ms	philos [  2] has taken a left fork
+2623      ms	philos [  2] has taken a right fork
+2623      ms	philos [  2] is eating
+2623      ms	philos [  2] is sleeping
+2624      ms	philos [  4] is thinking
+2624      ms	philos [  4] has taken a left fork
+2624      ms	philos [  4] has taken a right fork
+2624      ms	philos [  4] is eating
+2624      ms	philos [  4] is sleeping
+2624      ms	philos [  1] is thinking
+2624      ms	philos [  1] has taken a left fork
+2624      ms	philos [  1] has taken a right fork
+2624      ms	philos [  1] is eating
+2624      ms	philos [  1] is sleeping
+2629      ms	philos [  3] is thinking
+2629      ms	philos [  3] has taken a left fork
+2629      ms	philos [  3] has taken a right fork
+2629      ms	philos [  3] is eating
+2629      ms	philos [  3] is sleeping
+2827      ms	philos [  4] is thinking
+2827      ms	philos [  2] is thinking
+2827      ms	philos [  2] has taken a left fork
+2827      ms	philos [  2] has taken a right fork
+2827      ms	philos [  2] is eating
+2827      ms	philos [  2] is sleeping
+2827      ms	philos [  1] is thinking
+2827      ms	philos [  1] has taken a left fork
+2827      ms	philos [  1] has taken a right fork
+2827      ms	philos [  1] is eating
+2827      ms	philos [  1] is sleeping
+2827      ms	philos [  4] has taken a left fork
+2827      ms	philos [  4] has taken a right fork
+2827      ms	philos [  4] is eating
+2827      ms	philos [  4] is sleeping
+2829      ms	philos [  3] is thinking
+2829      ms	philos [  3] has taken a left fork
+2829      ms	philos [  3] has taken a right fork
+2829      ms	philos [  3] is eating
+2829      ms	philos [  3] is sleeping
+3030      ms	philos [  1] is thinking
+3030      ms	philos [  1] has taken a left fork
+3030      ms	philos [  1] has taken a right fork
+3030      ms	philos [  1] is eating
+3030      ms	philos [  1] is sleeping
+3030      ms	philos [  3] is thinking
+3030      ms	philos [  3] has taken a left fork
+3030      ms	philos [  3] has taken a right fork
+3030      ms	philos [  3] is eating
+3030      ms	philos [  3] is sleeping
+3030      ms	philos [  2] is thinking
+3030      ms	philos [  2] has taken a left fork
+3030      ms	philos [  2] has taken a right fork
+3030      ms	philos [  2] is eating
+3030      ms	philos [  2] is sleeping
+3030      ms	philos [  4] is thinking
+3030      ms	philos [  4] has taken a left fork
+3030      ms	philos [  4] has taken a right fork
+3030      ms	philos [  4] is eating
+3030      ms	philos [  4] is sleeping
+3231      ms	philos [  1] is thinking
+3231      ms	philos [  1] has taken a left fork
+3231      ms	philos [  1] has taken a right fork
+3231      ms	philos [  1] is eating
+3231      ms	philos [  1] is sleeping
+3231      ms	philos [  4] is thinking
+3231      ms	philos [  4] has taken a left fork
+3231      ms	philos [  4] has taken a right fork
+3232      ms	philos [  3] is thinking
+3232      ms	philos [  4] is eating
+3232      ms	philos [  4] is sleeping
+3232      ms	philos [  2] is thinking
+3232      ms	philos [  2] has taken a left fork
+3232      ms	philos [  3] has taken a left fork
+3232      ms	philos [  3] has taken a right fork
+3232      ms	philos [  3] is eating
+3232      ms	philos [  2] has taken a right fork
+3232      ms	philos [  2] is eating
+3232      ms	philos [  2] is sleeping
+3232      ms	philos [  3] is sleeping
+3431      ms	philos [  1] is thinking
+3431      ms	philos [  1] has taken a left fork
+3431      ms	philos [  1] has taken a right fork
+3431      ms	philos [  1] is eating
+3431      ms	philos [  1] is sleeping
+3432      ms	philos [  4] is thinking
+3432      ms	philos [  4] has taken a left fork
+3432      ms	philos [  3] is thinking
+3432      ms	philos [  2] is thinking
+3432      ms	philos [  2] has taken a left fork
+3432      ms	philos [  4] has taken a right fork
+3432      ms	philos [  4] is eating
+3432      ms	philos [  4] is sleeping
+3432      ms	philos [  3] has taken a left fork
+3432      ms	philos [  3] has taken a right fork
+3432      ms	philos [  3] is eating
+3432      ms	philos [  2] has taken a right fork
+3432      ms	philos [  2] is eating
+3432      ms	philos [  2] is sleeping
+3432      ms	philos [  3] is sleeping
+3632      ms	philos [  1] is thinking
+3632      ms	philos [  1] has taken a left fork
+3632      ms	philos [  1] has taken a right fork
+3632      ms	philos [  1] is eating
+3632      ms	philos [  1] is sleeping
+3632      ms	philos [  3] is thinking
+3632      ms	philos [  3] has taken a left fork
+3632      ms	philos [  3] has taken a right fork
+3632      ms	philos [  3] is eating
+3632      ms	philos [  3] is sleeping
+3633      ms	philos [  2] is thinking
+3633      ms	philos [  2] has taken a left fork
+3633      ms	philos [  2] has taken a right fork
+3633      ms	philos [  2] is eating
+3633      ms	philos [  2] is sleeping
+3633      ms	philos [  4] is thinking
+3633      ms	philos [  4] has taken a left fork
+3633      ms	philos [  4] has taken a right fork
+3633      ms	philos [  4] is eating
+3633      ms	philos [  4] is sleeping
+3832      ms	philos [  1] is thinking
+3832      ms	philos [  1] has taken a left fork
+3832      ms	philos [  1] has taken a right fork
+3832      ms	philos [  1] is eating
+3832      ms	philos [  1] is sleeping
+3833      ms	philos [  3] is thinking
+3833      ms	philos [  3] has taken a left fork
+3833      ms	philos [  3] has taken a right fork
+3833      ms	philos [  3] is eating
+3833      ms	philos [  3] is sleeping
+3833      ms	philos [  4] is thinking
+3833      ms	philos [  4] has taken a left fork
+3833      ms	philos [  4] has taken a right fork
+3833      ms	philos [  4] is eating
+3833      ms	philos [  4] is sleeping
+3833      ms	philos [  2] is thinking
+3833      ms	philos [  2] has taken a left fork
+3833      ms	philos [  2] has taken a right fork
+3833      ms	philos [  2] is eating
+3833      ms	philos [  2] is sleeping
+4032      ms	philos [  1] is thinking
+4032      ms	philos [  1] has taken a left fork
+4032      ms	philos [  1] has taken a right fork
+4032      ms	philos [  1] is eating
+4032      ms	philos [  1] is sleeping
+4034      ms	philos [  2] is thinking
+4034      ms	philos [  4] is thinking
+4034      ms	philos [  4] has taken a left fork
+4034      ms	philos [  4] has taken a right fork
+4034      ms	philos [  4] is eating
+4034      ms	philos [  4] is sleeping
+4034      ms	philos [  2] has taken a left fork
+4034      ms	philos [  2] has taken a right fork
+4034      ms	philos [  2] is eating
+4034      ms	philos [  2] is sleeping
+4034      ms	philos [  3] is thinking
+4034      ms	philos [  3] has taken a left fork
+4034      ms	philos [  3] has taken a right fork
+4034      ms	philos [  3] is eating
+4034      ms	philos [  3] is sleeping
+4232      ms	philos [  1] is thinking
+4232      ms	philos [  1] has taken a left fork
+4232      ms	philos [  1] has taken a right fork
+4232      ms	philos [  1] is eating
+4232      ms	philos [  1] is sleeping
+4234      ms	philos [  4] is thinking
+4234      ms	philos [  2] is thinking
+4234      ms	philos [  4] has taken a left fork
+4234      ms	philos [  4] has taken a right fork
+4234      ms	philos [  4] is eating
+4234      ms	philos [  2] has taken a left fork
+4234      ms	philos [  2] has taken a right fork
+4234      ms	philos [  2] is eating
+4234      ms	philos [  2] is sleeping
+4234      ms	philos [  3] is thinking
+4234      ms	philos [  3] has taken a left fork
+4234      ms	philos [  4] is sleeping
+4234      ms	philos [  3] has taken a right fork
+4234      ms	philos [  3] is eating
+4234      ms	philos [  3] is sleeping
+4432      ms	philos [  1] is thinking
+4432      ms	philos [  1] has taken a left fork
+4432      ms	philos [  1] has taken a right fork
+4432      ms	philos [  1] is eating
+4432      ms	philos [  1] is sleeping
+4434      ms	philos [  4] is thinking
+4434      ms	philos [  4] has taken a left fork
+4434      ms	philos [  4] has taken a right fork
+4434      ms	philos [  4] is eating
+4434      ms	philos [  4] is sleeping
+4434      ms	philos [  2] is thinking
+4434      ms	philos [  2] has taken a left fork
+4434      ms	philos [  2] has taken a right fork
+4434      ms	philos [  2] is eating
+4434      ms	philos [  3] is thinking
+4434      ms	philos [  3] has taken a left fork
+4434      ms	philos [  3] has taken a right fork
+4434      ms	philos [  3] is eating
+4434      ms	philos [  3] is sleeping
+4434      ms	philos [  2] is sleeping
+4634      ms	philos [  1] is thinking
+4634      ms	philos [  1] has taken a left fork
+4634      ms	philos [  1] has taken a right fork
+4634      ms	philos [  1] is eating
+4634      ms	philos [  1] is sleeping
+4639      ms	philos [  2] is thinking
+4639      ms	philos [  4] is thinking
+4639      ms	philos [  4] has taken a left fork
+4639      ms	philos [  2] has taken a left fork
+4639      ms	philos [  2] has taken a right fork
+4639      ms	philos [  2] is eating
+4639      ms	philos [  4] has taken a right fork
+4639      ms	philos [  4] is eating
+4639      ms	philos [  3] is thinking
+4639      ms	philos [  2] is sleeping
+4639      ms	philos [  3] has taken a left fork
+4639      ms	philos [  3] has taken a right fork
+4639      ms	philos [  3] is eating
+4639      ms	philos [  4] is sleeping
+4639      ms	philos [  3] is sleeping
+4834      ms	philos [  1] is thinking
+4834      ms	philos [  1] has taken a left fork
+4834      ms	philos [  1] has taken a right fork
+4834      ms	philos [  1] is eating
+4834      ms	philos [  1] is sleeping
+4839      ms	philos [  2] is thinking
+4839      ms	philos [  2] has taken a left fork
+4839      ms	philos [  3] is thinking
+4839      ms	philos [  3] has taken a left fork
+4839      ms	philos [  3] has taken a right fork
+4839      ms	philos [  3] is eating
+4839      ms	philos [  3] is sleeping
+4839      ms	philos [  2] has taken a right fork
+4839      ms	philos [  4] is thinking
+4839      ms	philos [  4] has taken a left fork
+4839      ms	philos [  2] is eating
+4839      ms	philos [  2] is sleeping
+4839      ms	philos [  4] has taken a right fork
+4839      ms	philos [  4] is eating
+4839      ms	philos [  4] is sleeping
+5034      ms	philos [  1] is thinking
+5034      ms	philos [  1] has taken a left fork
+5034      ms	philos [  1] has taken a right fork
+5034      ms	philos [  1] is eating
+5034      ms	philos [  1] is sleeping
+5040      ms	philos [  2] is thinking
+5040      ms	philos [  4] is thinking
+5040      ms	philos [  2] has taken a left fork
+5040      ms	philos [  4] has taken a left fork
+5040      ms	philos [  4] has taken a right fork
+5040      ms	philos [  4] is eating
+5040      ms	philos [  4] is sleeping
+5040      ms	philos [  2] has taken a right fork
+5040      ms	philos [  2] is eating
+5040      ms	philos [  2] is sleeping
+5040      ms	philos [  3] is thinking
+5040      ms	philos [  3] has taken a left fork
+5040      ms	philos [  3] has taken a right fork
+5040      ms	philos [  3] is eating
+5040      ms	philos [  3] is sleeping
+5234      ms	philos [  1] is thinking
+5234      ms	philos [  1] has taken a left fork
+5234      ms	philos [  1] has taken a right fork
+5234      ms	philos [  1] is eating
+5234      ms	philos [  1] is sleeping
+5242      ms	philos [  4] is thinking
+5242      ms	philos [  3] is thinking
+5242      ms	philos [  3] has taken a left fork
+5242      ms	philos [  4] has taken a left fork
+5242      ms	philos [  4] has taken a right fork
+5242      ms	philos [  4] is eating
+5242      ms	philos [  2] is thinking
+5242      ms	philos [  3] has taken a right fork
+5242      ms	philos [  2] has taken a left fork
+5242      ms	philos [  3] is eating
+5242      ms	philos [  3] is sleeping
+5242      ms	philos [  4] is sleeping
+5242      ms	philos [  2] has taken a right fork
+5242      ms	philos [  2] is eating
+5242      ms	philos [  2] is sleeping
+5434      ms	philos [  1] is thinking
+5434      ms	philos [  1] has taken a left fork
+5434      ms	philos [  1] has taken a right fork
+5434      ms	philos [  1] is eating
+5434      ms	philos [  1] is sleeping
+5442      ms	philos [  2] is thinking
+5442      ms	philos [  2] has taken a left fork
+5442      ms	philos [  3] is thinking
+5442      ms	philos [  4] is thinking
+5442      ms	philos [  4] has taken a left fork
+5442      ms	philos [  4] has taken a right fork
+5442      ms	philos [  4] is eating
+5442      ms	philos [  4] is sleeping
+5442      ms	philos [  2] has taken a right fork
+5442      ms	philos [  2] is eating
+5442      ms	philos [  3] has taken a left fork
+5442      ms	philos [  3] has taken a right fork
+5442      ms	philos [  3] is eating
+5442      ms	philos [  2] is sleeping
+5442      ms	philos [  3] is sleeping
+5635      ms	philos [  1] is thinking
+5635      ms	philos [  1] has taken a left fork
+5635      ms	philos [  1] has taken a right fork
+5635      ms	philos [  1] is eating
+5635      ms	philos [  1] is sleeping
+5647      ms	philos [  4] is thinking
+5647      ms	philos [  3] is thinking
+5647      ms	philos [  4] has taken a left fork
+5647      ms	philos [  4] has taken a right fork
+5647      ms	philos [  4] is eating
+5647      ms	philos [  4] is sleeping
+5647      ms	philos [  3] has taken a left fork
+5647      ms	philos [  3] has taken a right fork
+5647      ms	philos [  2] is thinking
+5647      ms	philos [  2] has taken a left fork
+5647      ms	philos [  3] is eating
+5647      ms	philos [  3] is sleeping
+5647      ms	philos [  2] has taken a right fork
+5647      ms	philos [  2] is eating
+5647      ms	philos [  2] is sleeping
+5835      ms	philos [  1] is thinking
+5835      ms	philos [  1] has taken a left fork
+5835      ms	philos [  1] has taken a right fork
+5835      ms	philos [  1] is eating
+5835      ms	philos [  1] is sleeping
+5847      ms	philos [  2] is thinking
+5847      ms	philos [  2] has taken a left fork
+5847      ms	philos [  4] is thinking
+5847      ms	philos [  2] has taken a right fork
+5847      ms	philos [  2] is eating
+5847      ms	philos [  2] is sleeping
+5847      ms	philos [  4] has taken a left fork
+5847      ms	philos [  3] is thinking
+5847      ms	philos [  3] has taken a left fork
+5847      ms	philos [  4] has taken a right fork
+5847      ms	philos [  4] is eating
+5847      ms	philos [  4] is sleeping
+5847      ms	philos [  3] has taken a right fork
+5847      ms	philos [  3] is eating
+5847      ms	philos [  3] is sleeping
+6036      ms	philos [  1] is thinking
+6036      ms	philos [  1] has taken a left fork
+6036      ms	philos [  1] has taken a right fork
+6036      ms	philos [  1] is eating
+6036      ms	philos [  1] is sleeping
+6052      ms	philos [  3] is thinking
+6052      ms	philos [  3] has taken a left fork
+6052      ms	philos [  3] has taken a right fork
+6052      ms	philos [  4] is thinking
+6052      ms	philos [  3] is eating
+6052      ms	philos [  3] is sleeping
+6052      ms	philos [  2] is thinking
+6052      ms	philos [  2] has taken a left fork
+6052      ms	philos [  2] has taken a right fork
+6052      ms	philos [  2] is eating
+6052      ms	philos [  4] has taken a left fork
+6052      ms	philos [  4] has taken a right fork
+6052      ms	philos [  4] is eating
+6052      ms	philos [  4] is sleeping
+6052      ms	philos [  2] is sleeping
+6239      ms	philos [  1] is thinking
+6239      ms	philos [  1] has taken a left fork
+6239      ms	philos [  1] has taken a right fork
+6239      ms	philos [  1] is eating
+6239      ms	philos [  1] is sleeping
+6252      ms	philos [  2] is thinking
+6252      ms	philos [  2] has taken a left fork
+6252      ms	philos [  2] has taken a right fork
+6252      ms	philos [  3] is thinking
+6252      ms	philos [  2] is eating
+6252      ms	philos [  2] is sleeping
+6252      ms	philos [  3] has taken a left fork
+6252      ms	philos [  3] has taken a right fork
+6252      ms	philos [  4] is thinking
+6252      ms	philos [  3] is eating
+6252      ms	philos [  3] is sleeping
+6252      ms	philos [  4] has taken a left fork
+6252      ms	philos [  4] has taken a right fork
+6252      ms	philos [  4] is eating
+6252      ms	philos [  4] is sleeping
+6439      ms	philos [  1] is thinking
+6439      ms	philos [  1] has taken a left fork
+6439      ms	philos [  1] has taken a right fork
+6439      ms	philos [  1] is eating
+6439      ms	philos [  1] is sleeping
+6453      ms	philos [  2] is thinking
+6453      ms	philos [  2] has taken a left fork
+6453      ms	philos [  2] has taken a right fork
+6453      ms	philos [  2] is eating
+6453      ms	philos [  2] is sleeping
+6457      ms	philos [  3] is thinking
+6457      ms	philos [  3] has taken a left fork
+6457      ms	philos [  3] has taken a right fork
+6457      ms	philos [  3] is eating
+6457      ms	philos [  3] is sleeping
+6457      ms	philos [  4] is thinking
+6457      ms	philos [  4] has taken a left fork
+6457      ms	philos [  4] has taken a right fork
+6457      ms	philos [  4] is eating
+6457      ms	philos [  4] is sleeping
+6639      ms	philos [  1] is thinking
+6639      ms	philos [  1] has taken a left fork
+6639      ms	philos [  1] has taken a right fork
+6639      ms	philos [  1] is eating
+6639      ms	philos [  1] is sleeping
+6654      ms	philos [  2] is thinking
+6654      ms	philos [  2] has taken a left fork
+6654      ms	philos [  2] has taken a right fork
+6654      ms	philos [  2] is eating
+6654      ms	philos [  2] is sleeping
+6657      ms	philos [  3] is thinking
+6657      ms	philos [  3] has taken a left fork
+6657      ms	philos [  4] is thinking
+6657      ms	philos [  3] has taken a right fork
+6657      ms	philos [  3] is eating
+6657      ms	philos [  3] is sleeping
+6657      ms	philos [  4] has taken a left fork
+6657      ms	philos [  4] has taken a right fork
+6657      ms	philos [  4] is eating
+6657      ms	philos [  4] is sleeping
+6842      ms	philos [  1] is thinking
+6842      ms	philos [  1] has taken a left fork
+6842      ms	philos [  1] has taken a right fork
+6842      ms	philos [  1] is eating
+6842      ms	philos [  1] is sleeping
+6855      ms	philos [  2] is thinking
+6855      ms	philos [  2] has taken a left fork
+6855      ms	philos [  2] has taken a right fork
+6855      ms	philos [  2] is eating
+6855      ms	philos [  2] is sleeping
+6857      ms	philos [  4] is thinking
+6857      ms	philos [  4] has taken a left fork
+6857      ms	philos [  4] has taken a right fork
+6857      ms	philos [  4] is eating
+6857      ms	philos [  4] is sleeping
+6858      ms	philos [  3] is thinking
+6858      ms	philos [  3] has taken a left fork
+6858      ms	philos [  3] has taken a right fork
+6858      ms	philos [  3] is eating
+6858      ms	philos [  3] is sleeping
+7042      ms	philos [  1] is thinking
+7042      ms	philos [  1] has taken a left fork
+7042      ms	philos [  1] has taken a right fork
+7042      ms	philos [  1] is eating
+7042      ms	philos [  1] is sleeping
+7055      ms	philos [  2] is thinking
+7055      ms	philos [  2] has taken a left fork
+7055      ms	philos [  2] has taken a right fork
+7055      ms	philos [  2] is eating
+7055      ms	philos [  2] is sleeping
+7058      ms	philos [  4] is thinking
+7058      ms	philos [  4] has taken a left fork
+7058      ms	philos [  4] has taken a right fork
+7058      ms	philos [  4] is eating
+7058      ms	philos [  4] is sleeping
+7058      ms	philos [  3] is thinking
+7058      ms	philos [  3] has taken a left fork
+7058      ms	philos [  3] has taken a right fork
+7058      ms	philos [  3] is eating
+7058      ms	philos [  3] is sleeping
+7246      ms	philos [  1] is thinking
+7246      ms	philos [  1] has taken a left fork
+7246      ms	philos [  1] has taken a right fork
+7246      ms	philos [  1] is eating
+7246      ms	philos [  1] is sleeping
+7257      ms	philos [  2] is thinking
+7257      ms	philos [  2] has taken a left fork
+7257      ms	philos [  2] has taken a right fork
+7257      ms	philos [  2] is eating
+7257      ms	philos [  2] is sleeping
+7263      ms	philos [  4] is thinking
+7263      ms	philos [  3] is thinking
+7263      ms	philos [  3] has taken a left fork
+7263      ms	philos [  4] has taken a left fork
+7263      ms	philos [  4] has taken a right fork
+7263      ms	philos [  4] is eating
+7263      ms	philos [  4] is sleeping
+7263      ms	philos [  3] has taken a right fork
+7263      ms	philos [  3] is eating
+7263      ms	philos [  3] is sleeping
+7450      ms	philos [  1] is thinking
+7450      ms	philos [  1] has taken a left fork
+7450      ms	philos [  1] has taken a right fork
+7450      ms	philos [  1] is eating
+7450      ms	philos [  1] is sleeping
+7460      ms	philos [  2] is thinking
+7460      ms	philos [  2] has taken a left fork
+7460      ms	philos [  2] has taken a right fork
+7460      ms	philos [  2] is eating
+7460      ms	philos [  2] is sleeping
+7465      ms	philos [  4] is thinking
+7465      ms	philos [  4] has taken a left fork
+7465      ms	philos [  4] has taken a right fork
+7465      ms	philos [  3] is thinking
+7465      ms	philos [  3] has taken a left fork
+7465      ms	philos [  4] is eating
+7465      ms	philos [  4] is sleeping
+7465      ms	philos [  3] has taken a right fork
+7465      ms	philos [  3] is eating
+7465      ms	philos [  3] is sleeping
+7654      ms	philos [  1] is thinking
+7654      ms	philos [  1] has taken a left fork
+7654      ms	philos [  1] has taken a right fork
+7654      ms	philos [  1] is eating
+7654      ms	philos [  1] is sleeping
+7660      ms	philos [  2] is thinking
+7660      ms	philos [  2] has taken a left fork
+7660      ms	philos [  2] has taken a right fork
+7660      ms	philos [  2] is eating
+7660      ms	philos [  2] is sleeping
+7667      ms	philos [  4] is thinking
+7667      ms	philos [  3] is thinking
+7667      ms	philos [  3] has taken a left fork
+7667      ms	philos [  3] has taken a right fork
+7667      ms	philos [  3] is eating
+7667      ms	philos [  3] is sleeping
+7667      ms	philos [  4] has taken a left fork
+7667      ms	philos [  4] has taken a right fork
+7667      ms	philos [  4] is eating
+7667      ms	philos [  4] is sleeping
+7855      ms	philos [  1] is thinking
+7855      ms	philos [  1] has taken a left fork
+7855      ms	philos [  1] has taken a right fork
+7855      ms	philos [  1] is eating
+7855      ms	philos [  1] is sleeping
+7864      ms	philos [  2] is thinking
+7864      ms	philos [  2] has taken a left fork
+7864      ms	philos [  2] has taken a right fork
+7864      ms	philos [  2] is eating
+7864      ms	philos [  2] is sleeping
+7867      ms	philos [  3] is thinking
+7867      ms	philos [  3] has taken a left fork
+7867      ms	philos [  3] has taken a right fork
+7867      ms	philos [  3] is eating
+7867      ms	philos [  3] is sleeping
+7867      ms	philos [  4] is thinking
+7867      ms	philos [  4] has taken a left fork
+7867      ms	philos [  4] has taken a right fork
+7867      ms	philos [  4] is eating
+7867      ms	philos [  4] is sleeping
+8058      ms	philos [  1] is thinking
+8058      ms	philos [  1] has taken a left fork
+8058      ms	philos [  1] has taken a right fork
+8058      ms	philos [  1] is eating
+8058      ms	philos [  1] is sleeping
+8064      ms	philos [  2] is thinking
+8064      ms	philos [  2] has taken a left fork
+8064      ms	philos [  2] has taken a right fork
+8064      ms	philos [  2] is eating
+8064      ms	philos [  2] is sleeping
+8068      ms	philos [  4] is thinking
+8068      ms	philos [  4] has taken a left fork
+8068      ms	philos [  4] has taken a right fork
+8068      ms	philos [  4] is eating
+8068      ms	philos [  4] is sleeping
+8068      ms	philos [  3] is thinking
+8068      ms	philos [  3] has taken a left fork
+8068      ms	philos [  3] has taken a right fork
+8068      ms	philos [  3] is eating
+8068      ms	philos [  3] is sleeping
+8258      ms	philos [  1] is thinking
+8258      ms	philos [  1] has taken a left fork
+8258      ms	philos [  1] has taken a right fork
+8258      ms	philos [  1] is eating
+8258      ms	philos [  1] is sleeping
+8264      ms	philos [  2] is thinking
+8264      ms	philos [  2] has taken a left fork
+8264      ms	philos [  2] has taken a right fork
+8264      ms	philos [  2] is eating
+8264      ms	philos [  2] is sleeping
+8268      ms	philos [  3] is thinking
+8268      ms	philos [  3] has taken a left fork
+8268      ms	philos [  3] has taken a right fork
+8268      ms	philos [  4] is thinking
+8268      ms	philos [  3] is eating
+8268      ms	philos [  3] is sleeping
+8268      ms	philos [  4] has taken a left fork
+8268      ms	philos [  4] has taken a right fork
+8268      ms	philos [  4] is eating
+8268      ms	philos [  4] is sleeping
+8463      ms	philos [  1] is thinking
+8463      ms	philos [  1] has taken a left fork
+8463      ms	philos [  1] has taken a right fork
+8463      ms	philos [  1] is eating
+8463      ms	philos [  1] is sleeping
+8464      ms	philos [  2] is thinking
+8464      ms	philos [  2] has taken a left fork
+8464      ms	philos [  2] has taken a right fork
+8464      ms	philos [  2] is eating
+8464      ms	philos [  2] is sleeping
+8468      ms	philos [  3] is thinking
+8468      ms	philos [  3] has taken a left fork
+8468      ms	philos [  3] has taken a right fork
+8468      ms	philos [  3] is eating
+8468      ms	philos [  3] is sleeping
+8468      ms	philos [  4] is thinking
+8468      ms	philos [  4] has taken a left fork
+8468      ms	philos [  4] has taken a right fork
+8468      ms	philos [  4] is eating
+8468      ms	philos [  4] is sleeping
+8663      ms	philos [  1] is thinking
+8663      ms	philos [  1] has taken a left fork
+8663      ms	philos [  1] has taken a right fork
+8663      ms	philos [  1] is eating
+8663      ms	philos [  1] is sleeping
+8664      ms	philos [  2] is thinking
+8664      ms	philos [  2] has taken a left fork
+8664      ms	philos [  2] has taken a right fork
+8664      ms	philos [  2] is eating
+8664      ms	philos [  2] is sleeping
+8668      ms	philos [  4] is thinking
+8668      ms	philos [  4] has taken a left fork
+8668      ms	philos [  4] has taken a right fork
+8668      ms	philos [  4] is eating
+8668      ms	philos [  4] is sleeping
+8668      ms	philos [  3] is thinking
+8668      ms	philos [  3] has taken a left fork
+8668      ms	philos [  3] has taken a right fork
+8668      ms	philos [  3] is eating
+8668      ms	philos [  3] is sleeping
+8868      ms	philos [  2] is thinking
+8868      ms	philos [  2] has taken a left fork
+8868      ms	philos [  2] has taken a right fork
+8868      ms	philos [  2] is eating
+8868      ms	philos [  2] is sleeping
+8868      ms	philos [  1] is thinking
+8868      ms	philos [  1] has taken a left fork
+8868      ms	philos [  1] has taken a right fork
+8868      ms	philos [  1] is eating
+8868      ms	philos [  1] is sleeping
+8873      ms	philos [  4] is thinking
+8873      ms	philos [  4] has taken a left fork
+8873      ms	philos [  4] has taken a right fork
+8873      ms	philos [  4] is eating
+8873      ms	philos [  4] is sleeping
+8873      ms	philos [  3] is thinking
+8873      ms	philos [  3] has taken a left fork
+8873      ms	philos [  3] has taken a right fork
+8873      ms	philos [  3] is eating
+8873      ms	philos [  3] is sleeping
+9068      ms	philos [  1] is thinking
+9068      ms	philos [  1] has taken a left fork
+9068      ms	philos [  1] has taken a right fork
+9068      ms	philos [  1] is eating
+9068      ms	philos [  1] is sleeping
+9068      ms	philos [  2] is thinking
+9068      ms	philos [  2] has taken a left fork
+9068      ms	philos [  2] has taken a right fork
+9068      ms	philos [  2] is eating
+9068      ms	philos [  2] is sleeping
+9073      ms	philos [  4] is thinking
+9073      ms	philos [  3] is thinking
+9073      ms	philos [  3] has taken a left fork
+9073      ms	philos [  3] has taken a right fork
+9073      ms	philos [  3] is eating
+9073      ms	philos [  3] is sleeping
+9073      ms	philos [  4] has taken a left fork
+9073      ms	philos [  4] has taken a right fork
+9073      ms	philos [  4] is eating
+9073      ms	philos [  4] is sleeping
+9268      ms	philos [  1] is thinking
+9268      ms	philos [  2] is thinking
+9268      ms	philos [  1] has taken a left fork
+9268      ms	philos [  2] has taken a left fork
+9268      ms	philos [  2] has taken a right fork
+9268      ms	philos [  2] is eating
+9268      ms	philos [  2] is sleeping
+9268      ms	philos [  1] has taken a right fork
+9268      ms	philos [  1] is eating
+9268      ms	philos [  1] is sleeping
+9273      ms	philos [  4] is thinking
+9273      ms	philos [  4] has taken a left fork
+9273      ms	philos [  4] has taken a right fork
+9273      ms	philos [  4] is eating
+9273      ms	philos [  4] is sleeping
+9273      ms	philos [  3] is thinking
+9273      ms	philos [  3] has taken a left fork
+9273      ms	philos [  3] has taken a right fork
+9273      ms	philos [  3] is eating
+9273      ms	philos [  3] is sleeping
+9468      ms	philos [  1] is thinking
+9468      ms	philos [  1] has taken a left fork
+9468      ms	philos [  1] has taken a right fork
+9468      ms	philos [  1] is eating
+9468      ms	philos [  2] is thinking
+9468      ms	philos [  2] has taken a left fork
+9468      ms	philos [  2] has taken a right fork
+9468      ms	philos [  2] is eating
+9468      ms	philos [  2] is sleeping
+9468      ms	philos [  1] is sleeping
+9474      ms	philos [  3] is thinking
+9474      ms	philos [  3] has taken a left fork
+9474      ms	philos [  3] has taken a right fork
+9474      ms	philos [  3] is eating
+9474      ms	philos [  3] is sleeping
+9474      ms	philos [  4] is thinking
+9474      ms	philos [  4] has taken a left fork
+9474      ms	philos [  4] has taken a right fork
+9474      ms	philos [  4] is eating
+9474      ms	philos [  4] is sleeping
+9668      ms	philos [  1] is thinking
+9668      ms	philos [  1] has taken a left fork
+9668      ms	philos [  1] has taken a right fork
+9668      ms	philos [  1] is eating
+9668      ms	philos [  1] is sleeping
+9668      ms	philos [  2] is thinking
+9668      ms	philos [  2] has taken a left fork
+9668      ms	philos [  2] has taken a right fork
+9668      ms	philos [  2] is eating
+9668      ms	philos [  2] is sleeping
+9674      ms	philos [  4] is thinking
+9674      ms	philos [  4] has taken a left fork
+9674      ms	philos [  4] has taken a right fork
+9674      ms	philos [  4] is eating
+9674      ms	philos [  4] is sleeping
+9674      ms	philos [  3] is thinking
+9674      ms	philos [  3] has taken a left fork
+9674      ms	philos [  3] has taken a right fork
+9674      ms	philos [  3] is eating
+9674      ms	philos [  3] is sleeping
+9870      ms	philos [  2] is thinking
+9870      ms	philos [  2] has taken a left fork
+9870      ms	philos [  2] has taken a right fork
+9870      ms	philos [  2] is eating
+9870      ms	philos [  2] is sleeping
+9870      ms	philos [  1] is thinking
+9870      ms	philos [  1] has taken a left fork
+9870      ms	philos [  1] has taken a right fork
+9870      ms	philos [  1] is eating
+9870      ms	philos [  1] is sleeping
+9876      ms	philos [  4] is thinking
+9876      ms	philos [  4] has taken a left fork
+9876      ms	philos [  4] has taken a right fork
+9876      ms	philos [  4] is eating
+9876      ms	philos [  4] is sleeping
+9876      ms	philos [  3] is thinking
+9876      ms	philos [  3] has taken a left fork
+9876      ms	philos [  3] has taken a right fork
+9876      ms	philos [  3] is eating
+9876      ms	philos [  3] is sleeping
+10074     ms	philos [  1] is thinking
+10074     ms	philos [  1] has taken a left fork
+10074     ms	philos [  1] has taken a right fork
+10074     ms	philos [  1] is eating
+10074     ms	philos [  1] is sleeping
+10074     ms	philos [  2] is thinking
+10074     ms	philos [  2] has taken a left fork
+10074     ms	philos [  2] has taken a right fork
+10074     ms	philos [  2] is eating
+10074     ms	philos [  2] is sleeping
+10076     ms	philos [  4] is thinking
+10076     ms	philos [  4] has taken a left fork
+10076     ms	philos [  4] has taken a right fork
+10076     ms	philos [  4] is eating
+10076     ms	philos [  4] is sleeping
+10081     ms	philos [  3] is thinking
+10081     ms	philos [  3] has taken a left fork
+10081     ms	philos [  3] has taken a right fork
+10081     ms	philos [  3] is eating
+10081     ms	philos [  3] is sleeping
+10275     ms	philos [  1] is thinking
+10275     ms	philos [  2] is thinking
+10275     ms	philos [  1] has taken a left fork
+10275     ms	philos [  2] has taken a left fork
+10275     ms	philos [  2] has taken a right fork
+10275     ms	philos [  2] is eating
+10275     ms	philos [  2] is sleeping
+10275     ms	philos [  1] has taken a right fork
+10275     ms	philos [  1] is eating
+10275     ms	philos [  1] is sleeping
+10281     ms	philos [  4] is thinking
+10281     ms	philos [  4] has taken a left fork
+10281     ms	philos [  4] has taken a right fork
+10281     ms	philos [  4] is eating
+10281     ms	philos [  4] is sleeping
+10281     ms	philos [  3] is thinking
+10281     ms	philos [  3] has taken a left fork
+10281     ms	philos [  3] has taken a right fork
+10281     ms	philos [  3] is eating
+10281     ms	philos [  3] is sleeping
+10476     ms	philos [  2] is thinking
+10476     ms	philos [  2] has taken a left fork
+10476     ms	philos [  2] has taken a right fork
+10476     ms	philos [  2] is eating
+10476     ms	philos [  2] is sleeping
+10476     ms	philos [  1] is thinking
+10476     ms	philos [  1] has taken a left fork
+10476     ms	philos [  1] has taken a right fork
+10476     ms	philos [  1] is eating
+10476     ms	philos [  1] is sleeping
+10481     ms	philos [  3] is thinking
+10481     ms	philos [  3] has taken a left fork
+10481     ms	philos [  3] has taken a right fork
+10481     ms	philos [  3] is eating
+10481     ms	philos [  4] is thinking
+10481     ms	philos [  4] has taken a left fork
+10481     ms	philos [  4] has taken a right fork
+10481     ms	philos [  3] is sleeping
+10481     ms	philos [  4] is eating
+10481     ms	philos [  4] is sleeping
+10676     ms	philos [  2] is thinking
+10676     ms	philos [  2] has taken a left fork
+10676     ms	philos [  2] has taken a right fork
+10676     ms	philos [  2] is eating
+10676     ms	philos [  2] is sleeping
+10679     ms	philos [  1] is thinking
+10679     ms	philos [  1] has taken a left fork
+10679     ms	philos [  1] has taken a right fork
+10679     ms	philos [  1] is eating
+10679     ms	philos [  1] is sleeping
+10684     ms	philos [  3] is thinking
+10684     ms	philos [  3] has taken a left fork
+10684     ms	philos [  3] has taken a right fork
+10684     ms	philos [  3] is eating
+10684     ms	philos [  3] is sleeping
+10684     ms	philos [  4] is thinking
+10684     ms	philos [  4] has taken a left fork
+10684     ms	philos [  4] has taken a right fork
+10684     ms	philos [  4] is eating
+10684     ms	philos [  4] is sleeping
+10876     ms	philos [  2] is thinking
+10876     ms	philos [  2] has taken a left fork
+10876     ms	philos [  2] has taken a right fork
+10876     ms	philos [  2] is eating
+10876     ms	philos [  2] is sleeping
+10881     ms	philos [  1] is thinking
+10881     ms	philos [  1] has taken a left fork
+10881     ms	philos [  1] has taken a right fork
+10881     ms	philos [  1] is eating
+10881     ms	philos [  1] is sleeping
+10884     ms	philos [  3] is thinking
+10884     ms	philos [  3] has taken a left fork
+10884     ms	philos [  3] has taken a right fork
+10884     ms	philos [  3] is eating
+10884     ms	philos [  3] is sleeping
+10885     ms	philos [  4] is thinking
+10885     ms	philos [  4] has taken a left fork
+10885     ms	philos [  4] has taken a right fork
+10885     ms	philos [  4] is eating
+10885     ms	philos [  4] is sleeping
+11076     ms	philos [  2] is thinking
+11076     ms	philos [  2] has taken a left fork
+11076     ms	philos [  2] has taken a right fork
+11076     ms	philos [  2] is eating
+11076     ms	philos [  2] is sleeping
+11082     ms	philos [  1] is thinking
+11082     ms	philos [  1] has taken a left fork
+11082     ms	philos [  1] has taken a right fork
+11082     ms	philos [  1] is eating
+11082     ms	philos [  1] is sleeping
+11087     ms	philos [  4] is thinking
+11087     ms	philos [  4] has taken a left fork
+11087     ms	philos [  4] has taken a right fork
+11087     ms	philos [  4] is eating
+11087     ms	philos [  4] is sleeping
+11087     ms	philos [  3] is thinking
+11087     ms	philos [  3] has taken a left fork
+11087     ms	philos [  3] has taken a right fork
+11087     ms	philos [  3] is eating
+11087     ms	philos [  3] is sleeping
+11276     ms	philos [  2] is thinking
+11276     ms	philos [  2] has taken a left fork
+11276     ms	philos [  2] has taken a right fork
+11276     ms	philos [  2] is eating
+11276     ms	philos [  2] is sleeping
+11284     ms	philos [  1] is thinking
+11284     ms	philos [  1] has taken a left fork
+11284     ms	philos [  1] has taken a right fork
+11284     ms	philos [  1] is eating
+11284     ms	philos [  1] is sleeping
+11287     ms	philos [  3] is thinking
+11287     ms	philos [  3] has taken a left fork
+11287     ms	philos [  3] has taken a right fork
+11287     ms	philos [  3] is eating
+11287     ms	philos [  3] is sleeping
+11287     ms	philos [  4] is thinking
+11287     ms	philos [  4] has taken a left fork
+11287     ms	philos [  4] has taken a right fork
+11287     ms	philos [  4] is eating
+11287     ms	philos [  4] is sleeping
+11476     ms	philos [  2] is thinking
+11476     ms	philos [  2] has taken a left fork
+11476     ms	philos [  2] has taken a right fork
+11476     ms	philos [  2] is eating
+11476     ms	philos [  2] is sleeping
+11485     ms	philos [  1] is thinking
+11485     ms	philos [  1] has taken a left fork
+11485     ms	philos [  1] has taken a right fork
+11485     ms	philos [  1] is eating
+11485     ms	philos [  1] is sleeping
+11487     ms	philos [  3] is thinking
+11487     ms	philos [  3] has taken a left fork
+11487     ms	philos [  3] has taken a right fork
+11487     ms	philos [  3] is eating
+11487     ms	philos [  3] is sleeping
+11487     ms	philos [  4] is thinking
+11487     ms	philos [  4] has taken a left fork
+11487     ms	philos [  4] has taken a right fork
+11487     ms	philos [  4] is eating
+11487     ms	philos [  4] is sleeping
+11681     ms	philos [  2] is thinking
+11681     ms	philos [  2] has taken a left fork
+11681     ms	philos [  2] has taken a right fork
+11681     ms	philos [  2] is eating
+11681     ms	philos [  2] is sleeping
+11685     ms	philos [  1] is thinking
+11685     ms	philos [  1] has taken a left fork
+11685     ms	philos [  1] has taken a right fork
+11685     ms	philos [  1] is eating
+11685     ms	philos [  1] is sleeping
+11687     ms	philos [  3] is thinking
+11687     ms	philos [  3] has taken a left fork
+11687     ms	philos [  3] has taken a right fork
+11687     ms	philos [  3] is eating
+11687     ms	philos [  3] is sleeping
+11687     ms	philos [  4] is thinking
+11687     ms	philos [  4] has taken a left fork
+11687     ms	philos [  4] has taken a right fork
+11687     ms	philos [  4] is eating
+11687     ms	philos [  4] is sleeping
+11881     ms	philos [  2] is thinking
+11881     ms	philos [  2] has taken a left fork
+11881     ms	philos [  2] has taken a right fork
+11881     ms	philos [  2] is eating
+11881     ms	philos [  2] is sleeping
+11885     ms	philos [  1] is thinking
+11885     ms	philos [  1] has taken a left fork
+11885     ms	philos [  1] has taken a right fork
+11885     ms	philos [  1] is eating
+11885     ms	philos [  1] is sleeping
+11887     ms	philos [  3] is thinking
+11887     ms	philos [  3] has taken a left fork
+11887     ms	philos [  3] has taken a right fork
+11887     ms	philos [  3] is eating
+11887     ms	philos [  3] is sleeping
+11887     ms	philos [  4] is thinking
+11887     ms	philos [  4] has taken a left fork
+11887     ms	philos [  4] has taken a right fork
+11887     ms	philos [  4] is eating
+11887     ms	philos [  4] is sleeping
+12081     ms	philos [  2] is thinking
+12081     ms	philos [  2] has taken a left fork
+12081     ms	philos [  2] has taken a right fork
+12081     ms	philos [  2] is eating
+12081     ms	philos [  2] is sleeping
+12085     ms	philos [  1] is thinking
+12085     ms	philos [  1] has taken a left fork
+12085     ms	philos [  1] has taken a right fork
+12085     ms	philos [  1] is eating
+12085     ms	philos [  1] is sleeping
+12088     ms	philos [  4] is thinking
+12088     ms	philos [  3] is thinking
+12088     ms	philos [  4] has taken a left fork
+12088     ms	philos [  3] has taken a left fork
+12088     ms	philos [  4] has taken a right fork
+12088     ms	philos [  4] is eating
+12088     ms	philos [  4] is sleeping
+12088     ms	philos [  3] has taken a right fork
+12088     ms	philos [  3] is eating
+12088     ms	philos [  3] is sleeping
+12281     ms	philos [  2] is thinking
+12281     ms	philos [  2] has taken a left fork
+12281     ms	philos [  2] has taken a right fork
+12281     ms	philos [  2] is eating
+12281     ms	philos [  2] is sleeping
+12286     ms	philos [  1] is thinking
+12286     ms	philos [  1] has taken a left fork
+12286     ms	philos [  1] has taken a right fork
+12286     ms	philos [  1] is eating
+12286     ms	philos [  1] is sleeping
+12288     ms	philos [  4] is thinking
+12288     ms	philos [  4] has taken a left fork
+12288     ms	philos [  4] has taken a right fork
+12288     ms	philos [  4] is eating
+12288     ms	philos [  4] is sleeping
+12288     ms	philos [  3] is thinking
+12288     ms	philos [  3] has taken a left fork
+12288     ms	philos [  3] has taken a right fork
+12288     ms	philos [  3] is eating
+12288     ms	philos [  3] is sleeping
+12482     ms	philos [  2] is thinking
+12482     ms	philos [  2] has taken a left fork
+12482     ms	philos [  2] has taken a right fork
+12482     ms	philos [  2] is eating
+12482     ms	philos [  2] is sleeping
+12486     ms	philos [  1] is thinking
+12486     ms	philos [  1] has taken a left fork
+12486     ms	philos [  1] has taken a right fork
+12486     ms	philos [  1] is eating
+12486     ms	philos [  1] is sleeping
+12488     ms	philos [  4] is thinking
+12488     ms	philos [  4] has taken a left fork
+12488     ms	philos [  4] has taken a right fork
+12488     ms	philos [  4] is eating
+12488     ms	philos [  3] is thinking
+12488     ms	philos [  3] has taken a left fork
+12488     ms	philos [  3] has taken a right fork
+12488     ms	philos [  3] is eating
+12488     ms	philos [  3] is sleeping
+12488     ms	philos [  4] is sleeping
+12682     ms	philos [  2] is thinking
+12682     ms	philos [  2] has taken a left fork
+12682     ms	philos [  2] has taken a right fork
+12682     ms	philos [  2] is eating
+12682     ms	philos [  2] is sleeping
+12687     ms	philos [  1] is thinking
+12687     ms	philos [  1] has taken a left fork
+12687     ms	philos [  1] has taken a right fork
+12687     ms	philos [  1] is eating
+12687     ms	philos [  1] is sleeping
+12690     ms	philos [  4] is thinking
+12690     ms	philos [  3] is thinking
+12690     ms	philos [  3] has taken a left fork
+12690     ms	philos [  4] has taken a left fork
+12690     ms	philos [  4] has taken a right fork
+12690     ms	philos [  4] is eating
+12690     ms	philos [  3] has taken a right fork
+12690     ms	philos [  3] is eating
+12690     ms	philos [  3] is sleeping
+12690     ms	philos [  4] is sleeping
+12886     ms	philos [  2] is thinking
+12886     ms	philos [  2] has taken a left fork
+12886     ms	philos [  2] has taken a right fork
+12886     ms	philos [  2] is eating
+12886     ms	philos [  2] is sleeping
+12888     ms	philos [  1] is thinking
+12888     ms	philos [  1] has taken a left fork
+12888     ms	philos [  1] has taken a right fork
+12888     ms	philos [  1] is eating
+12888     ms	philos [  1] is sleeping
+12890     ms	philos [  4] is thinking
+12890     ms	philos [  4] has taken a left fork
+12890     ms	philos [  4] has taken a right fork
+12890     ms	philos [  4] is eating
+12890     ms	philos [  4] is sleeping
+12893     ms	philos [  3] is thinking
+12893     ms	philos [  3] has taken a left fork
+12893     ms	philos [  3] has taken a right fork
+12893     ms	philos [  3] is eating
+12893     ms	philos [  3] is sleeping
+13088     ms	philos [  1] is thinking
+13088     ms	philos [  1] has taken a left fork
+13088     ms	philos [  1] has taken a right fork
+13088     ms	philos [  1] is eating
+13088     ms	philos [  1] is sleeping
+13088     ms	philos [  2] is thinking
+13088     ms	philos [  2] has taken a left fork
+13088     ms	philos [  2] has taken a right fork
+13088     ms	philos [  2] is eating
+13088     ms	philos [  2] is sleeping
+13092     ms	philos [  4] is thinking
+13092     ms	philos [  4] has taken a left fork
+13092     ms	philos [  4] has taken a right fork
+13092     ms	philos [  4] is eating
+13092     ms	philos [  4] is sleeping
+13094     ms	philos [  3] is thinking
+13094     ms	philos [  3] has taken a left fork
+13094     ms	philos [  3] has taken a right fork
+13094     ms	philos [  3] is eating
+13094     ms	philos [  3] is sleeping
+13290     ms	philos [  2] is thinking
+13290     ms	philos [  2] has taken a left fork
+13290     ms	philos [  2] has taken a right fork
+13290     ms	philos [  2] is eating
+13290     ms	philos [  1] is thinking
+13290     ms	philos [  1] has taken a left fork
+13290     ms	philos [  1] has taken a right fork
+13290     ms	philos [  1] is eating
+13290     ms	philos [  2] is sleeping
+13290     ms	philos [  1] is sleeping
+13292     ms	philos [  4] is thinking
+13292     ms	philos [  4] has taken a left fork
+13292     ms	philos [  4] has taken a right fork
+13292     ms	philos [  4] is eating
+13292     ms	philos [  4] is sleeping
+13298     ms	philos [  3] is thinking
+13298     ms	philos [  3] has taken a left fork
+13298     ms	philos [  3] has taken a right fork
+13298     ms	philos [  3] is eating
+13298     ms	philos [  3] is sleeping
+13495     ms	philos [  2] is thinking
+13495     ms	philos [  1] is thinking
+13495     ms	philos [  1] has taken a left fork
+13495     ms	philos [  2] has taken a left fork
+13495     ms	philos [  2] has taken a right fork
+13495     ms	philos [  2] is eating
+13495     ms	philos [  2] is sleeping
+13495     ms	philos [  1] has taken a right fork
+13495     ms	philos [  1] is eating
+13495     ms	philos [  1] is sleeping
+13497     ms	philos [  4] is thinking
+13497     ms	philos [  4] has taken a left fork
+13497     ms	philos [  4] has taken a right fork
+13497     ms	philos [  4] is eating
+13497     ms	philos [  4] is sleeping
+13499     ms	philos [  3] is thinking
+13499     ms	philos [  3] has taken a left fork
+13499     ms	philos [  3] has taken a right fork
+13499     ms	philos [  3] is eating
+13499     ms	philos [  3] is sleeping
+13695     ms	philos [  1] is thinking
+13695     ms	philos [  1] has taken a left fork
+13695     ms	philos [  1] has taken a right fork
+13695     ms	philos [  1] is eating
+13695     ms	philos [  1] is sleeping
+13695     ms	philos [  2] is thinking
+13695     ms	philos [  2] has taken a left fork
+13695     ms	philos [  2] has taken a right fork
+13695     ms	philos [  2] is eating
+13695     ms	philos [  2] is sleeping
+13698     ms	philos [  4] is thinking
+13698     ms	philos [  4] has taken a left fork
+13698     ms	philos [  4] has taken a right fork
+13698     ms	philos [  4] is eating
+13698     ms	philos [  4] is sleeping
+13699     ms	philos [  3] is thinking
+13699     ms	philos [  3] has taken a left fork
+13699     ms	philos [  3] has taken a right fork
+13699     ms	philos [  3] is eating
+13699     ms	philos [  3] is sleeping
+13898     ms	philos [  1] is thinking
+13898     ms	philos [  1] has taken a left fork
+13898     ms	philos [  1] has taken a right fork
+13898     ms	philos [  1] is eating
+13898     ms	philos [  1] is sleeping
+13898     ms	philos [  2] is thinking
+13898     ms	philos [  2] has taken a left fork
+13898     ms	philos [  2] has taken a right fork
+13898     ms	philos [  2] is eating
+13898     ms	philos [  2] is sleeping
+13902     ms	philos [  4] is thinking
+13903     ms	philos [  4] has taken a left fork
+13903     ms	philos [  4] has taken a right fork
+13903     ms	philos [  4] is eating
+13903     ms	philos [  4] is sleeping
+13903     ms	philos [  3] is thinking
+13903     ms	philos [  3] has taken a left fork
+13903     ms	philos [  3] has taken a right fork
+13903     ms	philos [  3] is eating
+13903     ms	philos [  3] is sleeping
+14100     ms	philos [  2] is thinking
+14100     ms	philos [  2] has taken a left fork
+14100     ms	philos [  2] has taken a right fork
+14100     ms	philos [  2] is eating
+14100     ms	philos [  2] is sleeping
+14100     ms	philos [  1] is thinking
+14100     ms	philos [  1] has taken a left fork
+14100     ms	philos [  1] has taken a right fork
+14100     ms	philos [  1] is eating
+14100     ms	philos [  1] is sleeping
+14104     ms	philos [  4] is thinking
+14104     ms	philos [  3] is thinking
+14104     ms	philos [  3] has taken a left fork
+14104     ms	philos [  3] has taken a right fork
+14104     ms	philos [  3] is eating
+14104     ms	philos [  3] is sleeping
+14104     ms	philos [  4] has taken a left fork
+14104     ms	philos [  4] has taken a right fork
+14104     ms	philos [  4] is eating
+14104     ms	philos [  4] is sleeping
+14301     ms	philos [  2] is thinking
+14301     ms	philos [  2] has taken a left fork
+14301     ms	philos [  2] has taken a right fork
+14301     ms	philos [  2] is eating
+14301     ms	philos [  1] is thinking
+14301     ms	philos [  1] has taken a left fork
+14301     ms	philos [  1] has taken a right fork
+14301     ms	philos [  1] is eating
+14301     ms	philos [  2] is sleeping
+14301     ms	philos [  1] is sleeping
+14304     ms	philos [  3] is thinking
+14304     ms	philos [  3] has taken a left fork
+14304     ms	philos [  3] has taken a right fork
+14304     ms	philos [  3] is eating
+14304     ms	philos [  4] is thinking
+14304     ms	philos [  3] is sleeping
+14304     ms	philos [  4] has taken a left fork
+14304     ms	philos [  4] has taken a right fork
+14304     ms	philos [  4] is eating
+14304     ms	philos [  4] is sleeping
+14505     ms	philos [  1] is thinking
+14505     ms	philos [  1] has taken a left fork
+14505     ms	philos [  1] has taken a right fork
+14505     ms	philos [  1] is eating
+14505     ms	philos [  1] is sleeping
+14505     ms	philos [  2] is thinking
+14505     ms	philos [  2] has taken a left fork
+14505     ms	philos [  2] has taken a right fork
+14505     ms	philos [  2] is eating
+14505     ms	philos [  2] is sleeping
+14506     ms	philos [  3] is thinking
+14506     ms	philos [  3] has taken a left fork
+14506     ms	philos [  3] has taken a right fork
+14506     ms	philos [  3] is eating
+14506     ms	philos [  3] is sleeping
+14506     ms	philos [  4] is thinking
+14506     ms	philos [  4] has taken a left fork
+14506     ms	philos [  4] has taken a right fork
+14506     ms	philos [  4] is eating
+14506     ms	philos [  4] is sleeping
+14706     ms	philos [  3] is thinking
+14706     ms	philos [  4] is thinking
+14706     ms	philos [  3] has taken a left fork
+14706     ms	philos [  4] has taken a left fork
+14706     ms	philos [  4] has taken a right fork
+14706     ms	philos [  2] is thinking
+14706     ms	philos [  2] has taken a left fork
+14706     ms	philos [  4] is eating
+14706     ms	philos [  4] is sleeping
+14706     ms	philos [  3] has taken a right fork
+14706     ms	philos [  3] is eating
+14706     ms	philos [  1] is thinking
+14706     ms	philos [  3] is sleeping
+14706     ms	philos [  1] has taken a left fork
+14706     ms	philos [  2] has taken a right fork
+14706     ms	philos [  2] is eating
+14706     ms	philos [  1] has taken a right fork
+14706     ms	philos [  2] is sleeping
+14706     ms	philos [  1] is eating
+14706     ms	philos [  1] is sleeping
+14910     ms	philos [  4] is thinking
+14910     ms	philos [  4] has taken a left fork
+14910     ms	philos [  4] has taken a right fork
+14910     ms	philos [  4] is eating
+14910     ms	philos [  4] is sleeping
+14910     ms	philos [  2] is thinking
+14910     ms	philos [  3] is thinking
+14910     ms	philos [  3] has taken a left fork
+14910     ms	philos [  3] has taken a right fork
+14910     ms	philos [  1] is thinking
+14910     ms	philos [  2] has taken a left fork
+14910     ms	philos [  1] has taken a left fork
+14910     ms	philos [  3] is eating
+14910     ms	philos [  3] is sleeping
+14910     ms	philos [  2] has taken a right fork
+14910     ms	philos [  2] is eating
+14910     ms	philos [  1] has taken a right fork
+14910     ms	philos [  1] is eating
+14910     ms	philos [  1] is sleeping
+14910     ms	philos [  2] is sleeping
+15115     ms	philos [  4] is thinking
+15115     ms	philos [  4] has taken a left fork
+15115     ms	philos [  3] is thinking
+15115     ms	philos [  3] has taken a left fork
+15115     ms	philos [  2] is thinking
+15115     ms	philos [  1] is thinking
+15115     ms	philos [  2] has taken a left fork
+15115     ms	philos [  4] has taken a right fork
+15115     ms	philos [  4] is eating
+15115     ms	philos [  3] has taken a right fork
+15115     ms	philos [  3] is eating
+15115     ms	philos [  4] is sleeping
+15115     ms	philos [  2] has taken a right fork
+15115     ms	philos [  1] has taken a left fork
+15115     ms	philos [  2] is eating
+15115     ms	philos [  3] is sleeping
+15115     ms	philos [  1] has taken a right fork
+15115     ms	philos [  1] is eating
+15115     ms	philos [  1] is sleeping
+15115     ms	philos [  2] is sleeping
+15316     ms	philos [  4] is thinking
+15316     ms	philos [  4] has taken a left fork
+15316     ms	philos [  4] has taken a right fork
+15316     ms	philos [  4] is eating
+15316     ms	philos [  4] is sleeping
+15316     ms	philos [  3] is thinking
+15316     ms	philos [  3] has taken a left fork
+15316     ms	philos [  3] has taken a right fork
+15316     ms	philos [  3] is eating
+15316     ms	philos [  2] is thinking
+15316     ms	philos [  2] has taken a left fork
+15316     ms	philos [  3] is sleeping
+15316     ms	philos [  1] is thinking
+15316     ms	philos [  2] has taken a right fork
+15316     ms	philos [  2] is eating
+15316     ms	philos [  2] is sleeping
+15316     ms	philos [  1] has taken a left fork
+15316     ms	philos [  1] has taken a right fork
+15316     ms	philos [  1] is eating
+15316     ms	philos [  1] is sleeping
+15516     ms	philos [  3] is thinking
+15516     ms	philos [  3] has taken a left fork
+15516     ms	philos [  3] has taken a right fork
+15516     ms	philos [  3] is eating
+15516     ms	philos [  3] is sleeping
+15516     ms	philos [  4] is thinking
+15516     ms	philos [  1] is thinking
+15516     ms	philos [  1] has taken a left fork
+15516     ms	philos [  1] has taken a right fork
+15516     ms	philos [  1] is eating
+15516     ms	philos [  2] is thinking
+15516     ms	philos [  4] has taken a left fork
+15516     ms	philos [  1] is sleeping
+15516     ms	philos [  4] has taken a right fork
+15516     ms	philos [  4] is eating
+15516     ms	philos [  4] is sleeping
+15516     ms	philos [  2] has taken a left fork
+15516     ms	philos [  2] has taken a right fork
+15516     ms	philos [  2] is eating
+15516     ms	philos [  2] is sleeping
+15716     ms	philos [  3] is thinking
+15716     ms	philos [  3] has taken a left fork
+15716     ms	philos [  3] has taken a right fork
+15716     ms	philos [  3] is eating
+15716     ms	philos [  3] is sleeping
+15716     ms	philos [  4] is thinking
+15716     ms	philos [  2] is thinking
+15716     ms	philos [  2] has taken a left fork
+15716     ms	philos [  2] has taken a right fork
+15716     ms	philos [  2] is eating
+15716     ms	philos [  2] is sleeping
+15716     ms	philos [  4] has taken a left fork
+15716     ms	philos [  4] has taken a right fork
+15716     ms	philos [  4] is eating
+15716     ms	philos [  4] is sleeping
+15716     ms	philos [  1] is thinking
+15716     ms	philos [  1] has taken a left fork
+15716     ms	philos [  1] has taken a right fork
+15716     ms	philos [  1] is eating
+15716     ms	philos [  1] is sleeping
+15916     ms	philos [  3] is thinking
+15916     ms	philos [  3] has taken a left fork
+15916     ms	philos [  3] has taken a right fork
+15916     ms	philos [  3] is eating
+15916     ms	philos [  3] is sleeping
+15916     ms	philos [  2] is thinking
+15916     ms	philos [  4] is thinking
+15916     ms	philos [  4] has taken a left fork
+15916     ms	philos [  4] has taken a right fork
+15916     ms	philos [  4] is eating
+15916     ms	philos [  2] has taken a left fork
+15916     ms	philos [  2] has taken a right fork
+15916     ms	philos [  2] is eating
+15916     ms	philos [  1] is thinking
+15916     ms	philos [  2] is sleeping
+15916     ms	philos [  1] has taken a left fork
+15916     ms	philos [  1] has taken a right fork
+15916     ms	philos [  1] is eating
+15916     ms	philos [  4] is sleeping
+15916     ms	philos [  1] is sleeping
+16117     ms	philos [  2] is thinking
+16117     ms	philos [  2] has taken a left fork
+16117     ms	philos [  2] has taken a right fork
+16117     ms	philos [  2] is eating
+16117     ms	philos [  2] is sleeping
+16117     ms	philos [  4] is thinking
+16117     ms	philos [  4] has taken a left fork
+16117     ms	philos [  4] has taken a right fork
+16117     ms	philos [  4] is eating
+16117     ms	philos [  4] is sleeping
+16121     ms	philos [  1] is thinking
+16121     ms	philos [  1] has taken a left fork
+16121     ms	philos [  3] is thinking
+16121     ms	philos [  3] has taken a left fork
+16121     ms	philos [  1] has taken a right fork
+16121     ms	philos [  1] is eating
+16121     ms	philos [  1] is sleeping
+16121     ms	philos [  3] has taken a right fork
+16121     ms	philos [  3] is eating
+16121     ms	philos [  3] is sleeping
+16318     ms	philos [  4] is thinking
+16318     ms	philos [  4] has taken a left fork
+16318     ms	philos [  4] has taken a right fork
+16318     ms	philos [  4] is eating
+16318     ms	philos [  4] is sleeping
+16318     ms	philos [  2] is thinking
+16318     ms	philos [  2] has taken a left fork
+16318     ms	philos [  2] has taken a right fork
+16318     ms	philos [  2] is eating
+16318     ms	philos [  2] is sleeping
+16322     ms	philos [  1] is thinking
+16322     ms	philos [  1] has taken a left fork
+16322     ms	philos [  1] has taken a right fork
+16322     ms	philos [  1] is eating
+16322     ms	philos [  1] is sleeping
+16322     ms	philos [  3] is thinking
+16322     ms	philos [  3] has taken a left fork
+16322     ms	philos [  3] has taken a right fork
+16322     ms	philos [  3] is eating
+16322     ms	philos [  3] is sleeping
+16521     ms	philos [  2] is thinking
+16521     ms	philos [  2] has taken a left fork
+16521     ms	philos [  2] has taken a right fork
+16521     ms	philos [  2] is eating
+16521     ms	philos [  2] is sleeping
+16521     ms	philos [  4] is thinking
+16521     ms	philos [  4] has taken a left fork
+16521     ms	philos [  4] has taken a right fork
+16521     ms	philos [  4] is eating
+16521     ms	philos [  4] is sleeping
+16523     ms	philos [  3] is thinking
+16523     ms	philos [  3] has taken a left fork
+16523     ms	philos [  3] has taken a right fork
+16523     ms	philos [  3] is eating
+16523     ms	philos [  3] is sleeping
+16523     ms	philos [  1] is thinking
+16523     ms	philos [  1] has taken a left fork
+16523     ms	philos [  1] has taken a right fork
+16523     ms	philos [  1] is eating
+16523     ms	philos [  1] is sleeping
+16722     ms	philos [  2] is thinking
+16722     ms	philos [  2] has taken a left fork
+16722     ms	philos [  2] has taken a right fork
+16722     ms	philos [  2] is eating
+16722     ms	philos [  2] is sleeping
+16724     ms	philos [  4] is thinking
+16724     ms	philos [  4] has taken a left fork
+16724     ms	philos [  4] has taken a right fork
+16724     ms	philos [  4] is eating
+16724     ms	philos [  4] is sleeping
+16725     ms	philos [  1] is thinking
+16725     ms	philos [  1] has taken a left fork
+16725     ms	philos [  1] has taken a right fork
+16725     ms	philos [  1] is eating
+16725     ms	philos [  1] is sleeping
+16725     ms	philos [  3] is thinking
+16725     ms	philos [  3] has taken a left fork
+16725     ms	philos [  3] has taken a right fork
+16725     ms	philos [  3] is eating
+16725     ms	philos [  3] is sleeping
+16924     ms	philos [  4] is thinking
+16924     ms	philos [  4] has taken a left fork
+16924     ms	philos [  4] has taken a right fork
+16924     ms	philos [  4] is eating
+16924     ms	philos [  4] is sleeping
+16924     ms	philos [  2] is thinking
+16924     ms	philos [  2] has taken a left fork
+16924     ms	philos [  2] has taken a right fork
+16924     ms	philos [  2] is eating
+16924     ms	philos [  2] is sleeping
+16928     ms	philos [  3] is thinking
+16928     ms	philos [  3] has taken a left fork
+16928     ms	philos [  1] is thinking
+16928     ms	philos [  1] has taken a left fork
+16928     ms	philos [  3] has taken a right fork
+16928     ms	philos [  3] is eating
+16928     ms	philos [  1] has taken a right fork
+16928     ms	philos [  1] is eating
+16928     ms	philos [  1] is sleeping
+16928     ms	philos [  3] is sleeping
+17124     ms	philos [  4] is thinking
+17124     ms	philos [  4] has taken a left fork
+17124     ms	philos [  4] has taken a right fork
+17124     ms	philos [  4] is eating
+17124     ms	philos [  4] is sleeping
+17124     ms	philos [  2] is thinking
+17124     ms	philos [  2] has taken a left fork
+17124     ms	philos [  2] has taken a right fork
+17124     ms	philos [  2] is eating
+17124     ms	philos [  2] is sleeping
+17130     ms	philos [  1] is thinking
+17130     ms	philos [  3] is thinking
+17130     ms	philos [  3] has taken a left fork
+17130     ms	philos [  3] has taken a right fork
+17130     ms	philos [  3] is eating
+17130     ms	philos [  3] is sleeping
+17130     ms	philos [  1] has taken a left fork
+17130     ms	philos [  1] has taken a right fork
+17130     ms	philos [  1] is eating
+17130     ms	philos [  1] is sleeping
+17325     ms	philos [  2] is thinking
+17325     ms	philos [  2] has taken a left fork
+17325     ms	philos [  2] has taken a right fork
+17325     ms	philos [  2] is eating
+17325     ms	philos [  2] is sleeping
+17325     ms	philos [  4] is thinking
+17325     ms	philos [  4] has taken a left fork
+17325     ms	philos [  4] has taken a right fork
+17325     ms	philos [  4] is eating
+17325     ms	philos [  4] is sleeping
+17330     ms	philos [  1] is thinking
+17330     ms	philos [  3] is thinking
+17330     ms	philos [  1] has taken a left fork
+17330     ms	philos [  1] has taken a right fork
+17330     ms	philos [  1] is eating
+17330     ms	philos [  3] has taken a left fork
+17330     ms	philos [  3] has taken a right fork
+17330     ms	philos [  3] is eating
+17330     ms	philos [  3] is sleeping
+17330     ms	philos [  1] is sleeping
+17525     ms	philos [  4] is thinking
+17525     ms	philos [  4] has taken a left fork
+17525     ms	philos [  2] is thinking
+17525     ms	philos [  2] has taken a left fork
+17525     ms	philos [  2] has taken a right fork
+17525     ms	philos [  4] has taken a right fork
+17525     ms	philos [  4] is eating
+17525     ms	philos [  4] is sleeping
+17525     ms	philos [  2] is eating
+17525     ms	philos [  2] is sleeping
+17534     ms	philos [  1] is thinking
+17534     ms	philos [  1] has taken a left fork
+17534     ms	philos [  1] has taken a right fork
+17534     ms	philos [  1] is eating
+17534     ms	philos [  1] is sleeping
+17534     ms	philos [  3] is thinking
+17534     ms	philos [  3] has taken a left fork
+17534     ms	philos [  3] has taken a right fork
+17534     ms	philos [  3] is eating
+17534     ms	philos [  3] is sleeping
+17727     ms	philos [  4] is thinking
+17727     ms	philos [  2] is thinking
+17727     ms	philos [  2] has taken a left fork
+17727     ms	philos [  2] has taken a right fork
+17727     ms	philos [  2] is eating
+17727     ms	philos [  2] is sleeping
+17727     ms	philos [  4] has taken a left fork
+17727     ms	philos [  4] has taken a right fork
+17727     ms	philos [  4] is eating
+17727     ms	philos [  4] is sleeping
+17738     ms	philos [  1] is thinking
+17738     ms	philos [  1] has taken a left fork
+17738     ms	philos [  1] has taken a right fork
+17738     ms	philos [  1] is eating
+17738     ms	philos [  1] is sleeping
+17739     ms	philos [  3] is thinking
+17739     ms	philos [  3] has taken a left fork
+17739     ms	philos [  3] has taken a right fork
+17739     ms	philos [  3] is eating
+17739     ms	philos [  3] is sleeping
+17927     ms	philos [  4] is thinking
+17927     ms	philos [  4] has taken a left fork
+17927     ms	philos [  4] has taken a right fork
+17927     ms	philos [  4] is eating
+17927     ms	philos [  4] is sleeping
+17927     ms	philos [  2] is thinking
+17927     ms	philos [  2] has taken a left fork
+17927     ms	philos [  2] has taken a right fork
+17927     ms	philos [  2] is eating
+17927     ms	philos [  2] is sleeping
+17938     ms	philos [  1] is thinking
+17938     ms	philos [  1] has taken a left fork
+17938     ms	philos [  1] has taken a right fork
+17938     ms	philos [  1] is eating
+17938     ms	philos [  1] is sleeping
+17940     ms	philos [  3] is thinking
+17940     ms	philos [  3] has taken a left fork
+17940     ms	philos [  3] has taken a right fork
+17940     ms	philos [  3] is eating
+17940     ms	philos [  3] is sleeping
+18131     ms	philos [  2] is thinking
+18131     ms	philos [  2] has taken a left fork
+18131     ms	philos [  2] has taken a right fork
+18131     ms	philos [  2] is eating
+18131     ms	philos [  2] is sleeping
+18131     ms	philos [  4] is thinking
+18131     ms	philos [  4] has taken a left fork
+18131     ms	philos [  4] has taken a right fork
+18131     ms	philos [  4] is eating
+18131     ms	philos [  4] is sleeping
+18141     ms	philos [  1] is thinking
+18141     ms	philos [  1] has taken a left fork
+18141     ms	philos [  1] has taken a right fork
+18141     ms	philos [  1] is eating
+18141     ms	philos [  1] is sleeping
+18144     ms	philos [  3] is thinking
+18144     ms	philos [  3] has taken a left fork
+18144     ms	philos [  3] has taken a right fork
+18144     ms	philos [  3] is eating
+18144     ms	philos [  3] is sleeping
+18332     ms	philos [  4] is thinking
+18332     ms	philos [  4] has taken a left fork
+18332     ms	philos [  4] has taken a right fork
+18332     ms	philos [  4] is eating
+18332     ms	philos [  4] is sleeping
+18332     ms	philos [  2] is thinking
+18332     ms	philos [  2] has taken a left fork
+18332     ms	philos [  2] has taken a right fork
+18332     ms	philos [  2] is eating
+18332     ms	philos [  2] is sleeping
+18343     ms	philos [  1] is thinking
+18343     ms	philos [  1] has taken a left fork
+18343     ms	philos [  1] has taken a right fork
+18343     ms	philos [  1] is eating
+18343     ms	philos [  1] is sleeping
+18348     ms	philos [  3] is thinking
+18348     ms	philos [  3] has taken a left fork
+18348     ms	philos [  3] has taken a right fork
+18348     ms	philos [  3] is eating
+18348     ms	philos [  3] is sleeping
+18537     ms	philos [  2] is thinking
+18537     ms	philos [  2] has taken a left fork
+18537     ms	philos [  2] has taken a right fork
+18537     ms	philos [  2] is eating
+18537     ms	philos [  2] is sleeping
+18537     ms	philos [  4] is thinking
+18537     ms	philos [  4] has taken a left fork
+18537     ms	philos [  4] has taken a right fork
+18537     ms	philos [  4] is eating
+18537     ms	philos [  4] is sleeping
+18543     ms	philos [  1] is thinking
+18543     ms	philos [  1] has taken a left fork
+18543     ms	philos [  1] has taken a right fork
+18543     ms	philos [  1] is eating
+18543     ms	philos [  1] is sleeping
+18553     ms	philos [  3] is thinking
+18553     ms	philos [  3] has taken a left fork
+18553     ms	philos [  3] has taken a right fork
+18553     ms	philos [  3] is eating
+18553     ms	philos [  3] is sleeping
+18739     ms	philos [  4] is thinking
+18739     ms	philos [  4] has taken a left fork
+18739     ms	philos [  4] has taken a right fork
+18739     ms	philos [  2] is thinking
+18739     ms	philos [  2] has taken a left fork
+18739     ms	philos [  2] has taken a right fork
+18739     ms	philos [  2] is eating
+18739     ms	philos [  2] is sleeping
+18739     ms	philos [  4] is eating
+18739     ms	philos [  4] is sleeping
+18745     ms	philos [  1] is thinking
+18745     ms	philos [  1] has taken a left fork
+18745     ms	philos [  1] has taken a right fork
+18745     ms	philos [  1] is eating
+18745     ms	philos [  1] is sleeping
+18753     ms	philos [  3] is thinking
+18753     ms	philos [  3] has taken a left fork
+18753     ms	philos [  3] has taken a right fork
+18753     ms	philos [  3] is eating
+18753     ms	philos [  3] is sleeping
+18939     ms	philos [  2] is thinking
+18939     ms	philos [  4] is thinking
+18939     ms	philos [  4] has taken a left fork
+18939     ms	philos [  4] has taken a right fork
+18939     ms	philos [  4] is eating
+18939     ms	philos [  4] is sleeping
+18939     ms	philos [  2] has taken a left fork
+18939     ms	philos [  2] has taken a right fork
+18939     ms	philos [  2] is eating
+18939     ms	philos [  2] is sleeping
+18945     ms	philos [  1] is thinking
+18945     ms	philos [  1] has taken a left fork
+18945     ms	philos [  1] has taken a right fork
+18945     ms	philos [  1] is eating
+18945     ms	philos [  1] is sleeping
+18953     ms	philos [  3] is thinking
+18953     ms	philos [  3] has taken a left fork
+18953     ms	philos [  3] has taken a right fork
+18953     ms	philos [  3] is eating
+18953     ms	philos [  3] is sleeping
+19140     ms	philos [  4] is thinking
+19140     ms	philos [  2] is thinking
+19140     ms	philos [  2] has taken a left fork
+19140     ms	philos [  2] has taken a right fork
+19140     ms	philos [  4] has taken a left fork
+19141     ms	philos [  4] has taken a right fork
+19141     ms	philos [  4] is eating
+19141     ms	philos [  4] is sleeping
+19141     ms	philos [  2] is eating
+19141     ms	philos [  2] is sleeping
+19145     ms	philos [  1] is thinking
+19145     ms	philos [  1] has taken a left fork
+19145     ms	philos [  1] has taken a right fork
+19145     ms	philos [  1] is eating
+19145     ms	philos [  1] is sleeping
+19154     ms	philos [  3] is thinking
+19154     ms	philos [  3] has taken a left fork
+19154     ms	philos [  3] has taken a right fork
+19154     ms	philos [  3] is eating
+19154     ms	philos [  3] is sleeping
+19341     ms	philos [  4] is thinking
+19341     ms	philos [  4] has taken a left fork
+19341     ms	philos [  4] has taken a right fork
+19341     ms	philos [  4] is eating
+19341     ms	philos [  4] is sleeping
+19341     ms	philos [  2] is thinking
+19341     ms	philos [  2] has taken a left fork
+19341     ms	philos [  2] has taken a right fork
+19341     ms	philos [  2] is eating
+19341     ms	philos [  2] is sleeping
+19348     ms	philos [  1] is thinking
+19348     ms	philos [  1] has taken a left fork
+19348     ms	philos [  1] has taken a right fork
+19348     ms	philos [  1] is eating
+19348     ms	philos [  1] is sleeping
+19354     ms	philos [  3] is thinking
+19354     ms	philos [  3] has taken a left fork
+19354     ms	philos [  3] has taken a right fork
+19354     ms	philos [  3] is eating
+19354     ms	philos [  3] is sleeping
+19541     ms	philos [  4] is thinking
+19541     ms	philos [  4] has taken a left fork
+19541     ms	philos [  4] has taken a right fork
+19541     ms	philos [  4] is eating
+19541     ms	philos [  2] is thinking
+19541     ms	philos [  2] has taken a left fork
+19541     ms	philos [  2] has taken a right fork
+19541     ms	philos [  2] is eating
+19541     ms	philos [  2] is sleeping
+19541     ms	philos [  4] is sleeping
+19549     ms	philos [  1] is thinking
+19549     ms	philos [  1] has taken a left fork
+19549     ms	philos [  1] has taken a right fork
+19549     ms	philos [  1] is eating
+19549     ms	philos [  1] is sleeping
+19554     ms	philos [  3] is thinking
+19554     ms	philos [  3] has taken a left fork
+19554     ms	philos [  3] has taken a right fork
+19554     ms	philos [  3] is eating
+19554     ms	philos [  3] is sleeping
+19744     ms	philos [  2] is thinking
+19744     ms	philos [  2] has taken a left fork
+19744     ms	philos [  2] has taken a right fork
+19744     ms	philos [  2] is eating
+19744     ms	philos [  2] is sleeping
+19744     ms	philos [  4] is thinking
+19744     ms	philos [  4] has taken a left fork
+19744     ms	philos [  4] has taken a right fork
+19744     ms	philos [  4] is eating
+19744     ms	philos [  4] is sleeping
+19749     ms	philos [  1] is thinking
+19749     ms	philos [  1] has taken a left fork
+19749     ms	philos [  1] has taken a right fork
+19749     ms	philos [  1] is eating
+19749     ms	philos [  1] is sleeping
+19754     ms	philos [  3] is thinking
+19754     ms	philos [  3] has taken a left fork
+19754     ms	philos [  3] has taken a right fork
+19754     ms	philos [  3] is eating
+19754     ms	philos [  3] is sleeping
+19945     ms	philos [  2] is thinking
+19945     ms	philos [  2] has taken a left fork
+19945     ms	philos [  2] has taken a right fork
+19945     ms	philos [  2] is eating
+19945     ms	philos [  2] is sleeping
+19945     ms	philos [  4] is thinking
+19945     ms	philos [  4] has taken a left fork
+19945     ms	philos [  4] has taken a right fork
+19945     ms	philos [  4] is eating
+19945     ms	philos [  4] is sleeping
+19949     ms	philos [  1] is thinking
+19949     ms	philos [  1] has taken a left fork
+19949     ms	philos [  1] has taken a right fork
+19949     ms	philos [  1] is eating
+19949     ms	philos [  1] is sleeping
+19954     ms	philos [  3] is thinking
+19954     ms	philos [  3] has taken a left fork
+19954     ms	philos [  3] has taken a right fork
+19954     ms	philos [  3] is eating
+19954     ms	philos [  3] is sleeping
+20148     ms	philos [  2] is thinking
+20148     ms	philos [  2] has taken a left fork
+20148     ms	philos [  2] has taken a right fork
+20148     ms	philos [  2] is eating
+20148     ms	philos [  4] is thinking
+20148     ms	philos [  4] has taken a left fork
+20148     ms	philos [  4] has taken a right fork
+20148     ms	philos [  4] is eating
+20148     ms	philos [  4] is sleeping
+20148     ms	philos [  2] is sleeping
+20149     ms	philos [  1] is thinking
+20149     ms	philos [  1] has taken a left fork
+20149     ms	philos [  1] has taken a right fork
+20149     ms	philos [  1] is eating
+20149     ms	philos [  1] is sleeping
+20154     ms	philos [  3] is thinking
+20154     ms	philos [  3] has taken a left fork
+20154     ms	philos [  3] has taken a right fork
+20154     ms	philos [  3] is eating
+20154     ms	philos [  3] is sleeping
+20348     ms	philos [  4] is thinking
+20348     ms	philos [  2] is thinking
+20348     ms	philos [  2] has taken a left fork
+20348     ms	philos [  4] has taken a left fork
+20348     ms	philos [  4] has taken a right fork
+20348     ms	philos [  4] is eating
+20348     ms	philos [  4] is sleeping
+20348     ms	philos [  2] has taken a right fork
+20348     ms	philos [  2] is eating
+20348     ms	philos [  2] is sleeping
+20351     ms	philos [  1] is thinking
+20351     ms	philos [  1] has taken a left fork
+20351     ms	philos [  1] has taken a right fork
+20351     ms	philos [  1] is eating
+20351     ms	philos [  1] is sleeping
+20354     ms	philos [  3] is thinking
+20354     ms	philos [  3] has taken a left fork
+20354     ms	philos [  3] has taken a right fork
+20354     ms	philos [  3] is eating
+20354     ms	philos [  3] is sleeping
+20548     ms	philos [  4] is thinking
+20548     ms	philos [  2] is thinking
+20548     ms	philos [  2] has taken a left fork
+20548     ms	philos [  2] has taken a right fork
+20548     ms	philos [  2] is eating
+20548     ms	philos [  2] is sleeping
+20548     ms	philos [  4] has taken a left fork
+20548     ms	philos [  4] has taken a right fork
+20548     ms	philos [  4] is eating
+20548     ms	philos [  4] is sleeping
+20551     ms	philos [  1] is thinking
+20551     ms	philos [  1] has taken a left fork
+20551     ms	philos [  1] has taken a right fork
+20551     ms	philos [  1] is eating
+20551     ms	philos [  1] is sleeping
+20554     ms	philos [  3] is thinking
+20554     ms	philos [  3] has taken a left fork
+20554     ms	philos [  3] has taken a right fork
+20554     ms	philos [  3] is eating
+20554     ms	philos [  3] is sleeping
+20748     ms	philos [  2] is thinking
+20748     ms	philos [  2] has taken a left fork
+20748     ms	philos [  2] has taken a right fork
+20748     ms	philos [  2] is eating
+20748     ms	philos [  2] is sleeping
+20748     ms	philos [  4] is thinking
+20748     ms	philos [  4] has taken a left fork
+20748     ms	philos [  4] has taken a right fork
+20748     ms	philos [  4] is eating
+20748     ms	philos [  4] is sleeping
+20752     ms	philos [  1] is thinking
+20752     ms	philos [  1] has taken a left fork
+20752     ms	philos [  1] has taken a right fork
+20752     ms	philos [  1] is eating
+20752     ms	philos [  1] is sleeping
+20754     ms	philos [  3] is thinking
+20754     ms	philos [  3] has taken a left fork
+20754     ms	philos [  3] has taken a right fork
+20754     ms	philos [  3] is eating
+20754     ms	philos [  3] is sleeping
+20948     ms	philos [  2] is thinking
+20948     ms	philos [  2] has taken a left fork
+20948     ms	philos [  2] has taken a right fork
+20948     ms	philos [  2] is eating
+20948     ms	philos [  2] is sleeping
+20948     ms	philos [  4] is thinking
+20948     ms	philos [  4] has taken a left fork
+20948     ms	philos [  4] has taken a right fork
+20948     ms	philos [  4] is eating
+20948     ms	philos [  4] is sleeping
+20954     ms	philos [  3] is thinking
+20954     ms	philos [  3] has taken a left fork
+20954     ms	philos [  3] has taken a right fork
+20954     ms	philos [  3] is eating
+20954     ms	philos [  3] is sleeping
+20954     ms	philos [  1] is thinking
+20954     ms	philos [  1] has taken a left fork
+20954     ms	philos [  1] has taken a right fork
+20954     ms	philos [  1] is eating
+20954     ms	philos [  1] is sleeping
+21153     ms	philos [  4] is thinking
+21153     ms	philos [  4] has taken a left fork
+21153     ms	philos [  4] has taken a right fork
+21153     ms	philos [  4] is eating
+21153     ms	philos [  2] is thinking
+21153     ms	philos [  2] has taken a left fork
+21153     ms	philos [  2] has taken a right fork
+21153     ms	philos [  2] is eating
+21153     ms	philos [  2] is sleeping
+21153     ms	philos [  4] is sleeping
+21156     ms	philos [  3] is thinking
+21156     ms	philos [  3] has taken a left fork
+21156     ms	philos [  3] has taken a right fork
+21156     ms	philos [  1] is thinking
+21156     ms	philos [  3] is eating
+21156     ms	philos [  3] is sleeping
+21156     ms	philos [  1] has taken a left fork
+21156     ms	philos [  1] has taken a right fork
+21156     ms	philos [  1] is eating
+21156     ms	philos [  1] is sleeping
+21356     ms	philos [  2] is thinking
+21356     ms	philos [  2] has taken a left fork
+21356     ms	philos [  2] has taken a right fork
+21356     ms	philos [  2] is eating
+21356     ms	philos [  2] is sleeping
+21356     ms	philos [  4] is thinking
+21356     ms	philos [  4] has taken a left fork
+21356     ms	philos [  4] has taken a right fork
+21356     ms	philos [  4] is eating
+21356     ms	philos [  4] is sleeping
+21358     ms	philos [  1] is thinking
+21358     ms	philos [  1] has taken a left fork
+21358     ms	philos [  1] has taken a right fork
+21358     ms	philos [  1] is eating
+21358     ms	philos [  1] is sleeping
+21358     ms	philos [  3] is thinking
+21358     ms	philos [  3] has taken a left fork
+21358     ms	philos [  3] has taken a right fork
+21358     ms	philos [  3] is eating
+21358     ms	philos [  3] is sleeping
+21556     ms	philos [  4] is thinking
+21556     ms	philos [  2] is thinking
+21556     ms	philos [  2] has taken a left fork
+21556     ms	philos [  2] has taken a right fork
+21556     ms	philos [  4] has taken a left fork
+21556     ms	philos [  4] has taken a right fork
+21556     ms	philos [  4] is eating
+21556     ms	philos [  4] is sleeping
+21556     ms	philos [  2] is eating
+21556     ms	philos [  2] is sleeping
+21559     ms	philos [  1] is thinking
+21559     ms	philos [  1] has taken a left fork
+21559     ms	philos [  1] has taken a right fork
+21559     ms	philos [  1] is eating
+21559     ms	philos [  1] is sleeping
+21562     ms	philos [  3] is thinking
+21562     ms	philos [  3] has taken a left fork
+21562     ms	philos [  3] has taken a right fork
+21562     ms	philos [  3] is eating
+21562     ms	philos [  3] is sleeping
+21758     ms	philos [  4] is thinking
+21758     ms	philos [  4] has taken a left fork
+21758     ms	philos [  4] has taken a right fork
+21758     ms	philos [  4] is eating
+21758     ms	philos [  4] is sleeping
+21758     ms	philos [  2] is thinking
+21758     ms	philos [  2] has taken a left fork
+21758     ms	philos [  2] has taken a right fork
+21758     ms	philos [  2] is eating
+21758     ms	philos [  2] is sleeping
+21760     ms	philos [  1] is thinking
+21760     ms	philos [  1] has taken a left fork
+21760     ms	philos [  1] has taken a right fork
+21760     ms	philos [  1] is eating
+21760     ms	philos [  1] is sleeping
+21762     ms	philos [  3] is thinking
+21762     ms	philos [  3] has taken a left fork
+21762     ms	philos [  3] has taken a right fork
+21762     ms	philos [  3] is eating
+21762     ms	philos [  3] is sleeping
+21959     ms	philos [  2] is thinking
+21959     ms	philos [  2] has taken a left fork
+21959     ms	philos [  2] has taken a right fork
+21959     ms	philos [  2] is eating
+21959     ms	philos [  2] is sleeping
+21959     ms	philos [  4] is thinking
+21959     ms	philos [  4] has taken a left fork
+21959     ms	philos [  4] has taken a right fork
+21959     ms	philos [  4] is eating
+21959     ms	philos [  4] is sleeping
+21965     ms	philos [  3] is thinking
+21965     ms	philos [  1] is thinking
+21965     ms	philos [  1] has taken a left fork
+21965     ms	philos [  1] has taken a right fork
+21965     ms	philos [  1] is eating
+21965     ms	philos [  1] is sleeping
+21965     ms	philos [  3] has taken a left fork
+21965     ms	philos [  3] has taken a right fork
+21965     ms	philos [  3] is eating
+21965     ms	philos [  3] is sleeping
+22164     ms	philos [  2] is thinking
+22164     ms	philos [  2] has taken a left fork
+22164     ms	philos [  2] has taken a right fork
+22164     ms	philos [  2] is eating
+22164     ms	philos [  2] is sleeping
+22164     ms	philos [  4] is thinking
+22164     ms	philos [  4] has taken a left fork
+22164     ms	philos [  4] has taken a right fork
+22164     ms	philos [  4] is eating
+22164     ms	philos [  4] is sleeping
+22169     ms	philos [  1] is thinking
+22169     ms	philos [  3] is thinking
+22169     ms	philos [  3] has taken a left fork
+22169     ms	philos [  3] has taken a right fork
+22169     ms	philos [  3] is eating
+22169     ms	philos [  3] is sleeping
+22169     ms	philos [  1] has taken a left fork
+22169     ms	philos [  1] has taken a right fork
+22169     ms	philos [  1] is eating
+22169     ms	philos [  1] is sleeping
+22366     ms	philos [  4] is thinking
+22366     ms	philos [  4] has taken a left fork
+22366     ms	philos [  4] has taken a right fork
+22366     ms	philos [  4] is eating
+22366     ms	philos [  4] is sleeping
+22366     ms	philos [  2] is thinking
+22366     ms	philos [  2] has taken a left fork
+22366     ms	philos [  2] has taken a right fork
+22366     ms	philos [  2] is eating
+22366     ms	philos [  2] is sleeping
+22371     ms	philos [  3] is thinking
+22371     ms	philos [  3] has taken a left fork
+22371     ms	philos [  3] has taken a right fork
+22371     ms	philos [  3] is eating
+22371     ms	philos [  1] is thinking
+22371     ms	philos [  1] has taken a left fork
+22371     ms	philos [  1] has taken a right fork
+22371     ms	philos [  1] is eating
+22371     ms	philos [  3] is sleeping
+22371     ms	philos [  1] is sleeping
+22571     ms	philos [  4] is thinking
+22571     ms	philos [  4] has taken a left fork
+22571     ms	philos [  2] is thinking
+22571     ms	philos [  3] is thinking
+22571     ms	philos [  3] has taken a left fork
+22571     ms	philos [  4] has taken a right fork
+22572     ms	philos [  4] is eating
+22572     ms	philos [  4] is sleeping
+22572     ms	philos [  2] has taken a left fork
+22572     ms	philos [  3] has taken a right fork
+22572     ms	philos [  3] is eating
+22572     ms	philos [  3] is sleeping
+22572     ms	philos [  1] is thinking
+22572     ms	philos [  1] has taken a left fork
+22572     ms	philos [  2] has taken a right fork
+22572     ms	philos [  2] is eating
+22572     ms	philos [  2] is sleeping
+22572     ms	philos [  1] has taken a right fork
+22572     ms	philos [  1] is eating
+22572     ms	philos [  1] is sleeping
+22772     ms	philos [  4] is thinking
+22772     ms	philos [  4] has taken a left fork
+22772     ms	philos [  4] has taken a right fork
+22772     ms	philos [  4] is eating
+22772     ms	philos [  4] is sleeping
+22772     ms	philos [  3] is thinking
+22772     ms	philos [  2] is thinking
+22772     ms	philos [  2] has taken a left fork
+22772     ms	philos [  3] has taken a left fork
+22772     ms	philos [  3] has taken a right fork
+22772     ms	philos [  3] is eating
+22772     ms	philos [  3] is sleeping
+22772     ms	philos [  2] has taken a right fork
+22772     ms	philos [  2] is eating
+22772     ms	philos [  2] is sleeping
+22772     ms	philos [  1] is thinking
+22772     ms	philos [  1] has taken a left fork
+22772     ms	philos [  1] has taken a right fork
+22772     ms	philos [  1] is eating
+22772     ms	philos [  1] is sleeping
+22972     ms	philos [  2] is thinking
+22972     ms	philos [  4] is thinking
+22972     ms	philos [  2] has taken a left fork
+22972     ms	philos [  2] has taken a right fork
+22972     ms	philos [  2] is eating
+22972     ms	philos [  2] is sleeping
+22972     ms	philos [  4] has taken a left fork
+22972     ms	philos [  4] has taken a right fork
+22972     ms	philos [  4] is eating
+22972     ms	philos [  3] is thinking
+22972     ms	philos [  3] has taken a left fork
+22972     ms	philos [  3] has taken a right fork
+22972     ms	philos [  3] is eating
+22972     ms	philos [  4] is sleeping
+22972     ms	philos [  1] is thinking
+22972     ms	philos [  1] has taken a left fork
+22972     ms	philos [  1] has taken a right fork
+22972     ms	philos [  1] is eating
+22972     ms	philos [  1] is sleeping
+22972     ms	philos [  3] is sleeping
+23172     ms	philos [  2] is thinking
+23172     ms	philos [  2] has taken a left fork
+23172     ms	philos [  2] has taken a right fork
+23172     ms	philos [  2] is eating
+23172     ms	philos [  2] is sleeping
+23172     ms	philos [  1] is thinking
+23172     ms	philos [  1] has taken a left fork
+23172     ms	philos [  1] has taken a right fork
+23172     ms	philos [  4] is thinking
+23172     ms	philos [  1] is eating
+23172     ms	philos [  1] is sleeping
+23172     ms	philos [  3] is thinking
+23172     ms	philos [  3] has taken a left fork
+23172     ms	philos [  4] has taken a left fork
+23172     ms	philos [  4] has taken a right fork
+23172     ms	philos [  4] is eating
+23172     ms	philos [  4] is sleeping
+23172     ms	philos [  3] has taken a right fork
+23172     ms	philos [  3] is eating
+23172     ms	philos [  3] is sleeping
+23374     ms	philos [  2] is thinking
+23374     ms	philos [  2] has taken a left fork
+23374     ms	philos [  2] has taken a right fork
+23374     ms	philos [  1] is thinking
+23374     ms	philos [  3] is thinking
+23374     ms	philos [  2] is eating
+23374     ms	philos [  4] is thinking
+23374     ms	philos [  3] has taken a left fork
+23374     ms	philos [  4] has taken a left fork
+23374     ms	philos [  2] is sleeping
+23374     ms	philos [  1] has taken a left fork
+23374     ms	philos [  1] has taken a right fork
+23374     ms	philos [  1] is eating
+23374     ms	philos [  1] is sleeping
+23374     ms	philos [  4] has taken a right fork
+23374     ms	philos [  4] is eating
+23374     ms	philos [  3] has taken a right fork
+23374     ms	philos [  3] is eating
+23374     ms	philos [  3] is sleeping
+23374     ms	philos [  4] is sleeping
+23578     ms	philos [  2] is thinking
+23578     ms	philos [  3] is thinking
+23578     ms	philos [  1] is thinking
+23578     ms	philos [  1] has taken a left fork
+23578     ms	philos [  2] has taken a left fork
+23578     ms	philos [  3] has taken a left fork
+23578     ms	philos [  3] has taken a right fork
+23578     ms	philos [  3] is eating
+23578     ms	philos [  3] is sleeping
+23578     ms	philos [  2] has taken a right fork
+23578     ms	philos [  4] is thinking
+23578     ms	philos [  4] has taken a left fork
+23578     ms	philos [  2] is eating
+23578     ms	philos [  2] is sleeping
+23578     ms	philos [  1] has taken a right fork
+23578     ms	philos [  1] is eating
+23578     ms	philos [  1] is sleeping
+23578     ms	philos [  4] has taken a right fork
+23578     ms	philos [  4] is eating
+23578     ms	philos [  4] is sleeping
+23778     ms	philos [  1] is thinking
+23778     ms	philos [  4] is thinking
+23778     ms	philos [  3] is thinking
+23778     ms	philos [  4] has taken a left fork
+23778     ms	philos [  3] has taken a left fork
+23778     ms	philos [  1] has taken a left fork
+23778     ms	philos [  1] has taken a right fork
+23778     ms	philos [  1] is eating
+23778     ms	philos [  2] is thinking
+23778     ms	philos [  1] is sleeping
+23778     ms	philos [  2] has taken a left fork
+23778     ms	philos [  4] has taken a right fork
+23778     ms	philos [  4] is eating
+23778     ms	philos [  4] is sleeping
+23778     ms	philos [  3] has taken a right fork
+23778     ms	philos [  3] is eating
+23778     ms	philos [  3] is sleeping
+23778     ms	philos [  2] has taken a right fork
+23778     ms	philos [  2] is eating
+23778     ms	philos [  2] is sleeping
+23978     ms	philos [  1] is thinking
+23978     ms	philos [  2] is thinking
+23978     ms	philos [  3] is thinking
+23978     ms	philos [  2] has taken a left fork
+23978     ms	philos [  3] has taken a left fork
+23978     ms	philos [  3] has taken a right fork
+23978     ms	philos [  3] is eating
+23978     ms	philos [  4] is thinking
+23978     ms	philos [  1] has taken a left fork
+23978     ms	philos [  4] has taken a left fork
+23978     ms	philos [  3] is sleeping
+23978     ms	philos [  2] has taken a right fork
+23978     ms	philos [  2] is eating
+23978     ms	philos [  2] is sleeping
+23978     ms	philos [  1] has taken a right fork
+23978     ms	philos [  1] is eating
+23978     ms	philos [  1] is sleeping
+23978     ms	philos [  4] has taken a right fork
+23978     ms	philos [  4] is eating
+23978     ms	philos [  4] is sleeping
+24181     ms	philos [  4] is thinking
+24181     ms	philos [  2] is thinking
+24181     ms	philos [  2] has taken a left fork
+24181     ms	philos [  2] has taken a right fork
+24181     ms	philos [  2] is eating
+24181     ms	philos [  4] has taken a left fork
+24181     ms	philos [  4] has taken a right fork
+24181     ms	philos [  4] is eating
+24181     ms	philos [  4] is sleeping
+24181     ms	philos [  1] is thinking
+24181     ms	philos [  2] is sleeping
+24181     ms	philos [  1] has taken a left fork
+24181     ms	philos [  1] has taken a right fork
+24181     ms	philos [  1] is eating
+24181     ms	philos [  1] is sleeping
+24183     ms	philos [  3] is thinking
+24183     ms	philos [  3] has taken a left fork
+24183     ms	philos [  3] has taken a right fork
+24183     ms	philos [  3] is eating
+24183     ms	philos [  3] is sleeping
+24383     ms	philos [  2] is thinking
+24383     ms	philos [  1] is thinking
+24383     ms	philos [  1] has taken a left fork
+24383     ms	philos [  4] is thinking
+24383     ms	philos [  4] has taken a left fork
+24383     ms	philos [  2] has taken a left fork
+24383     ms	philos [  2] has taken a right fork
+24383     ms	philos [  2] is eating
+24383     ms	philos [  2] is sleeping
+24383     ms	philos [  1] has taken a right fork
+24383     ms	philos [  1] is eating
+24383     ms	philos [  1] is sleeping
+24383     ms	philos [  4] has taken a right fork
+24383     ms	philos [  4] is eating
+24383     ms	philos [  4] is sleeping
+24387     ms	philos [  3] is thinking
+24387     ms	philos [  3] has taken a left fork
+24387     ms	philos [  3] has taken a right fork
+24387     ms	philos [  3] is eating
+24387     ms	philos [  3] is sleeping
+24585     ms	philos [  1] is thinking
+24585     ms	philos [  1] has taken a left fork
+24585     ms	philos [  1] has taken a right fork
+24585     ms	philos [  4] is thinking
+24585     ms	philos [  4] has taken a left fork
+24585     ms	philos [  1] is eating
+24585     ms	philos [  2] is thinking
+24585     ms	philos [  2] has taken a left fork
+24585     ms	philos [  2] has taken a right fork
+24585     ms	philos [  2] is eating
+24585     ms	philos [  2] is sleeping
+24585     ms	philos [  4] has taken a right fork
+24585     ms	philos [  1] is sleeping
+24585     ms	philos [  4] is eating
+24585     ms	philos [  4] is sleeping
+24589     ms	philos [  3] is thinking
+24589     ms	philos [  3] has taken a left fork
+24589     ms	philos [  3] has taken a right fork
+24589     ms	philos [  3] is eating
+24589     ms	philos [  3] is sleeping
+24787     ms	philos [  4] is thinking
+24787     ms	philos [  2] is thinking
+24787     ms	philos [  1] is thinking
+24787     ms	philos [  1] has taken a left fork
+24787     ms	philos [  2] has taken a left fork
+24787     ms	philos [  2] has taken a right fork
+24787     ms	philos [  2] is eating
+24787     ms	philos [  2] is sleeping
+24787     ms	philos [  4] has taken a left fork
+24787     ms	philos [  1] has taken a right fork
+24787     ms	philos [  1] is eating
+24787     ms	philos [  4] has taken a right fork
+24787     ms	philos [  4] is eating
+24787     ms	philos [  4] is sleeping
+24787     ms	philos [  1] is sleeping
+24789     ms	philos [  3] is thinking
+24789     ms	philos [  3] has taken a left fork
+24789     ms	philos [  3] has taken a right fork
+24789     ms	philos [  3] is eating
+24789     ms	philos [  3] is sleeping
+24987     ms	philos [  2] is thinking
+24987     ms	philos [  2] has taken a left fork
+24987     ms	philos [  2] has taken a right fork
+24987     ms	philos [  2] is eating
+24987     ms	philos [  2] is sleeping
+24987     ms	philos [  4] is thinking
+24987     ms	philos [  4] has taken a left fork
+24987     ms	philos [  4] has taken a right fork
+24987     ms	philos [  4] is eating
+24987     ms	philos [  4] is sleeping
+24987     ms	philos [  1] is thinking
+24987     ms	philos [  1] has taken a left fork
+24987     ms	philos [  1] has taken a right fork
+24987     ms	philos [  1] is eating
+24987     ms	philos [  1] is sleeping
+24989     ms	philos [  3] is thinking
+24989     ms	philos [  3] has taken a left fork
+24989     ms	philos [  3] has taken a right fork
+24989     ms	philos [  3] is eating
+24989     ms	philos [  3] is sleeping
+25188     ms	philos [  1] is thinking
+25188     ms	philos [  4] is thinking
+25188     ms	philos [  4] has taken a left fork
+25188     ms	philos [  2] is thinking
+25188     ms	philos [  2] has taken a left fork
+25188     ms	philos [  2] has taken a right fork
+25188     ms	philos [  2] is eating
+25188     ms	philos [  2] is sleeping
+25188     ms	philos [  1] has taken a left fork
+25188     ms	philos [  1] has taken a right fork
+25188     ms	philos [  1] is eating
+25188     ms	philos [  1] is sleeping
+25188     ms	philos [  4] has taken a right fork
+25188     ms	philos [  4] is eating
+25188     ms	philos [  4] is sleeping
+25189     ms	philos [  3] is thinking
+25189     ms	philos [  3] has taken a left fork
+25189     ms	philos [  3] has taken a right fork
+25189     ms	philos [  3] is eating
+25189     ms	philos [  3] is sleeping
+25388     ms	philos [  2] is thinking
+25388     ms	philos [  2] has taken a left fork
+25388     ms	philos [  2] has taken a right fork
+25388     ms	philos [  2] is eating
+25388     ms	philos [  2] is sleeping
+25388     ms	philos [  4] is thinking
+25388     ms	philos [  4] has taken a left fork
+25388     ms	philos [  4] has taken a right fork
+25388     ms	philos [  4] is eating
+25388     ms	philos [  4] is sleeping
+25388     ms	philos [  1] is thinking
+25388     ms	philos [  1] has taken a left fork
+25388     ms	philos [  1] has taken a right fork
+25388     ms	philos [  1] is eating
+25388     ms	philos [  1] is sleeping
+25394     ms	philos [  3] is thinking
+25394     ms	philos [  3] has taken a left fork
+25394     ms	philos [  3] has taken a right fork
+25394     ms	philos [  3] is eating
+25394     ms	philos [  3] is sleeping
+25588     ms	philos [  4] is thinking
+25588     ms	philos [  2] is thinking
+25588     ms	philos [  2] has taken a left fork
+25588     ms	philos [  2] has taken a right fork
+25588     ms	philos [  1] is thinking
+25588     ms	philos [  1] has taken a left fork
+25588     ms	philos [  4] has taken a left fork
+25588     ms	philos [  2] is eating
+25588     ms	philos [  2] is sleeping
+25588     ms	philos [  1] has taken a right fork
+25588     ms	philos [  1] is eating
+25588     ms	philos [  1] is sleeping
+25588     ms	philos [  4] has taken a right fork
+25588     ms	philos [  4] is eating
+25588     ms	philos [  4] is sleeping
+25595     ms	philos [  3] is thinking
+25595     ms	philos [  3] has taken a left fork
+25595     ms	philos [  3] has taken a right fork
+25595     ms	philos [  3] is eating
+25595     ms	philos [  3] is sleeping
+25788     ms	philos [  2] is thinking
+25788     ms	philos [  2] has taken a left fork
+25788     ms	philos [  2] has taken a right fork
+25788     ms	philos [  2] is eating
+25788     ms	philos [  2] is sleeping
+25788     ms	philos [  4] is thinking
+25788     ms	philos [  4] has taken a left fork
+25788     ms	philos [  1] is thinking
+25788     ms	philos [  1] has taken a left fork
+25788     ms	philos [  1] has taken a right fork
+25788     ms	philos [  1] is eating
+25788     ms	philos [  4] has taken a right fork
+25788     ms	philos [  1] is sleeping
+25788     ms	philos [  4] is eating
+25788     ms	philos [  4] is sleeping
+25795     ms	philos [  3] is thinking
+25795     ms	philos [  3] has taken a left fork
+25795     ms	philos [  3] has taken a right fork
+25795     ms	philos [  3] is eating
+25795     ms	philos [  3] is sleeping
+25991     ms	philos [  1] is thinking
+25991     ms	philos [  1] has taken a left fork
+25991     ms	philos [  1] has taken a right fork
+25991     ms	philos [  2] is thinking
+25991     ms	philos [  1] is eating
+25991     ms	philos [  4] is thinking
+25991     ms	philos [  1] is sleeping
+25991     ms	philos [  4] has taken a left fork
+25991     ms	philos [  4] has taken a right fork
+25991     ms	philos [  4] is eating
+25991     ms	philos [  4] is sleeping
+25991     ms	philos [  2] has taken a left fork
+25991     ms	philos [  2] has taken a right fork
+25991     ms	philos [  2] is eating
+25991     ms	philos [  2] is sleeping
+25996     ms	philos [  3] is thinking
+25996     ms	philos [  3] has taken a left fork
+25996     ms	philos [  3] has taken a right fork
+25996     ms	philos [  3] is eating
+25996     ms	philos [  3] is sleeping
+26191     ms	philos [  1] is thinking
+26191     ms	philos [  1] has taken a left fork
+26191     ms	philos [  1] has taken a right fork
+26191     ms	philos [  1] is eating
+26191     ms	philos [  1] is sleeping
+26191     ms	philos [  2] is thinking
+26191     ms	philos [  2] has taken a left fork
+26191     ms	philos [  2] has taken a right fork
+26191     ms	philos [  2] is eating
+26191     ms	philos [  2] is sleeping
+26191     ms	philos [  4] is thinking
+26191     ms	philos [  4] has taken a left fork
+26191     ms	philos [  4] has taken a right fork
+26192     ms	philos [  4] is eating
+26192     ms	philos [  4] is sleeping
+26196     ms	philos [  3] is thinking
+26196     ms	philos [  3] has taken a left fork
+26196     ms	philos [  3] has taken a right fork
+26196     ms	philos [  3] is eating
+26196     ms	philos [  3] is sleeping
+26396     ms	philos [  1] is thinking
+26396     ms	philos [  3] is thinking
+26396     ms	philos [  1] has taken a left fork
+26396     ms	philos [  1] has taken a right fork
+26396     ms	philos [  1] is eating
+26396     ms	philos [  1] is sleeping
+26396     ms	philos [  3] has taken a left fork
+26396     ms	philos [  3] has taken a right fork
+26396     ms	philos [  4] is thinking
+26396     ms	philos [  3] is eating
+26396     ms	philos [  3] is sleeping
+26396     ms	philos [  4] has taken a left fork
+26396     ms	philos [  4] has taken a right fork
+26396     ms	philos [  4] is eating
+26396     ms	philos [  4] is sleeping
+26396     ms	philos [  2] is thinking
+26396     ms	philos [  2] has taken a left fork
+26396     ms	philos [  2] has taken a right fork
+26396     ms	philos [  2] is eating
+26396     ms	philos [  2] is sleeping
+26597     ms	philos [  4] is thinking
+26597     ms	philos [  3] is thinking
+26597     ms	philos [  2] is thinking
+26597     ms	philos [  3] has taken a left fork
+26597     ms	philos [  2] has taken a left fork
+26597     ms	philos [  1] is thinking
+26597     ms	philos [  4] has taken a left fork
+26597     ms	philos [  1] has taken a left fork
+26806     ms	philos [  1] Died
+Philosopher problem end
