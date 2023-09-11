@@ -65,12 +65,7 @@ void	eating(t_philo *philo)
 void	do_eat(t_philo *philo)
 {
 	eating(philo);
-	// run_sleep(g_dining_info.eating_time);
-	
-	long times = get_time_ms(philo->recent_eat_time);
-	times += g_dining_info.eating_time * 1000;
-	while (times <= get_now_ms())
-		usleep(100);
+	run_sleep(g_dining_info.eating_time);
 	pthread_mutex_unlock(philo->leftfork);
 	pthread_mutex_unlock(philo->rightfork);
 }
