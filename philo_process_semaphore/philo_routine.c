@@ -37,15 +37,11 @@ void monitor_thread_routine(void *param)
 		sem_wait(g_info.sem_monitor);
 		gettimeofday(&now_time, NULL);
 		
-		// printf("%ld %d %ld %ld\n", get_time_ms(now_time), g_info.died_time, get_time_ms(g_philo.recent_eat_time), g_info.died_time+ get_time_ms(g_philo.recent_eat_time));
 		if (get_time_ms(now_time) > g_info.died_time + get_time_ms(g_philo.recent_eat_time))
 		{
-			// printf("qwer\n");
 			print_message(&g_philo, DEAD);
 			g_info.end_flag = 1;
 			sem_post(g_info.sem_monitor);
-			
-			
 			break;
 		}
 		g_philo.recent_eat_time = now_time;
